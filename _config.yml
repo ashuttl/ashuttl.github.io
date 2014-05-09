@@ -1,0 +1,10 @@
+# Site settings
+title: Andrew Shuttleworth
+email: andrew@shuttleworth.is
+description: "I work for Lincoln Center in New York."
+baseurl: ""
+url: "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

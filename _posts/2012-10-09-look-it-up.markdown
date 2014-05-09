@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: Look it up
+author: ashuttl
+author_login: ashuttl
+author_email: ashuttleworth@gmail.com
+wordpress_id: 57
+wordpress_url: http://ashuttleworth.com/?p=57
+date: '2012-10-09 09:20:20 -0400'
+date_gmt: '2012-10-09 13:20:20 -0400'
+categories:
+- Links
+tags:
+- http:&#47;&#47;sethgodin.typepad.com&#47;seths_blog&#47;2012&#47;10&#47;the-curious-imperative.html
+comments: []
+---
+<p>Seth Godin advises:</p>
+<blockquote>
+<p>Now that information is ubiquitous, the obligation changes. It&rsquo;s no longer okay to not know.</p>
+<p>If you don&rsquo;t know what a word means, look it up.</p>
+<p>If you&rsquo;re meeting with someone, check them out in advance.</p>
+<p>If it sounds too good to be true, Google it before you forward it.</p>
+<p><&#47;blockquote></p>
+<p>I might add:</p>
+<p>If you don&rsquo;t know the name of the product, look at the manufacturer&rsquo;s website.</p>
+<p>(Hint: Adobe makes no application called &ldquo;PhotoShop&rdquo; and Apple has never produced anything called an &ldquo;iTouch.&rdquo;)</p>
