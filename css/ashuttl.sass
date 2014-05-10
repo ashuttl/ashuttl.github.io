@@ -1,12 +1,19 @@
 @import _config
 @import _reset
 
+
+//////////////////////////////
+// Styling
+//////////////////////////////
+
 body
   +fedra
   color: $black
   background-color: $white
   -webkit-text-size-adjust: 100%
-  font-size: $bs
+  font-size: $bs * 0.875
+  @media screen and (min-width: $small)
+    font-size: $bs
 
 ::selection
   background: fade-out($green, .5)
@@ -19,3 +26,89 @@ a, a:link, a:visited
 
 h1,h2,h3,h4,h5,h6,p,td,li,dt,dd,div,section,article
   line-height: 1.65
+
+p,td,li,dt,dd,div,section,article
+  strong
+    +fedra-bold
+  em
+    +fedra-italic
+  strong em, em strong
+    +fedra-bold-italic
+
+
+
+//////////////////////////////
+// Layout
+//////////////////////////////
+
+.content
+  margin: 0 auto
+  max-width: 750px
+  padding: 0 $bs
+
+
+//////////////////////////////
+// Design
+//////////////////////////////
+
+#header
+  margin-top: $bs * 2
+  font-size: 0.875em
+  a:hover
+    color: $green
+  .wood
+    background: url(/images/wood-diagonal.jpg)
+    background-size: 350px
+    background-position: center
+    position: fixed
+    top: 0
+    left: 0
+    border-bottom: 1px solid $brown
+    height: $bs
+    width: 100%
+    @media screen and (min-width: $small)
+      height: $bs * 1.25  
+  .name
+    .name--text
+      +irma-light
+      margin: $bs * .5 0
+      font-size: 2em
+      line-height: 1.1
+  .desc
+    .desc--text
+      color: $gray
+      a:hover
+        color: $green
+  .social
+    @mixin social($color: $green, $icon: "")
+      line-height: 24px
+      float: left
+      width: 50%
+      @media screen and (min-width: $small)
+        width: 33%
+      a
+        color: $gray
+        display: block
+        margin: 0.25em 0
+        i
+          width: 24px
+          height: 24px
+          float: left
+          margin-right: 5px
+          background-image: url(/images/social-#{$icon}.png)
+          background-size: 24px
+          background-color: $gray
+          transition: background-color 0.1s linear
+        &:hover
+          color: $color
+          i
+            background-color: $color
+    .about
+      +social($green, contact)
+    .twitter
+      +social($blue, twitter)
+    .rss
+      +social($orange, rss)
+      display: none
+      @media screen and (min-width: $small)
+        display: block
