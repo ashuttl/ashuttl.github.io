@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: The world&rsquo;s front pages
+title: The world’s front pages
 author: ashuttl
 author_login: ashuttl
 author_email: ashuttleworth@gmail.com
@@ -12,6 +12,7 @@ date: '2012-11-07 10:24:39 -0500'
 date_gmt: '2012-11-07 14:24:39 -0500'
 post_type: link
 tags:
-- http:&#47;&#47;www.newseum.org&#47;todaysfrontpages&#47;default_archive.asp?fpArchive=110712
+- http://www.newseum.org/todaysfrontpages/default_archive.asp?fpArchive=110712
 ---
-<p>The president was reelected last night. Here are the front pages of the newspapers waiting on the world&rsquo;s doorsteps.</p>
+The president was reelected last night. Here are the front pages of the newspapers waiting on the world’s doorsteps.
+

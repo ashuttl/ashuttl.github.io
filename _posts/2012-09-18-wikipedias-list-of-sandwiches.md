@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Wikipedia&rsquo;s list of sandwiches
+title: Wikipedia’s list of sandwiches
 author: ashuttl
 author_login: ashuttl
 author_email: ashuttleworth@gmail.com
@@ -12,6 +12,7 @@ date: '2012-09-18 08:52:25 -0400'
 date_gmt: '2012-09-18 12:52:25 -0400'
 post_type: link
 tags:
-- http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;List_of_sandwiches
+- http://en.wikipedia.org/wiki/List_of_sandwiches
 ---
-<p>I find this strangely captivating.</p>
+I find this strangely captivating.
+
