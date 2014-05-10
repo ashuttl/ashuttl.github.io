@@ -54,8 +54,8 @@ p,td,li,dt,dd,div,section,article
 #header
   margin-top: 2.5em
   font-size: 0.875em
-  a:hover
-    color: $green
+  a
+    +green-hover
   .wood
     background: url(/images/wood-diagonal.jpg)
     background-size: 350px
@@ -75,8 +75,6 @@ p,td,li,dt,dd,div,section,article
   .desc
     .desc--text
       color: $gray
-      a:hover
-        color: $green
   .social
     overflow: auto
     @mixin social($color: $green, $icon: "")
@@ -126,6 +124,7 @@ p,td,li,dt,dd,div,section,article
         width: 1em
     .permalink
       color: $gray
+      +green-hover
       display: inline-block
   .article--body
     p

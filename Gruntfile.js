@@ -17,6 +17,14 @@ module.exports = function(grunt){
       }
     },
 
+    cmq: {
+      your_target: {
+        files: {
+          'css/build/': ['css/build/ashuttl.css']
+        }
+      }
+    },
+
     cssmin: {
       build: {
         src: 'css/build/ashuttl.css',
@@ -48,6 +56,6 @@ module.exports = function(grunt){
   });
 
   grunt.registerTask('default', []);
-  grunt.registerTask('buildcss', ['sass', 'autoprefixer', 'cssc', 'cssmin']);
+  grunt.registerTask('buildcss', ['sass', 'autoprefixer', 'cssc', 'cmq', 'cssmin']);
 
 };
