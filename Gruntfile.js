@@ -32,6 +32,13 @@ module.exports = function(grunt){
       }
     },
 
+    autoprefixer: {
+      build: {
+        src: 'css/build/ashuttl.css',
+        dest: 'css/build/ashuttl.css'
+      }
+    },
+
     watch: {
       css: {
         files: ['css/*.sass'],
@@ -41,6 +48,6 @@ module.exports = function(grunt){
   });
 
   grunt.registerTask('default', []);
-  grunt.registerTask('buildcss', ['sass', 'autoprefixer', 'cssc', 'cssmin']);
+  grunt.registerTask('buildcss', ['sass', 'cssc', 'cssmin', 'autoprefixer']);
 
 };
