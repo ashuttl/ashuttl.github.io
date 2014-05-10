@@ -1,0 +1,629 @@
+@import url("reset.css");
+.unicode {
+    font-family: 'Lucida Sans Unicode','Lucida Grande',sans-serif;
+    line-height: 1 !important;
+}
+code,
+pre {
+    font-family: Cousine, Consolas, Courier, monospace;
+    line-height: 100%;
+    background: #e7e2da;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 0.95em;
+}
+::selection {
+    background: rgba(154, 193, 35, 0.5);
+    color: #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+::-moz-selection {
+    background: rgba(154, 193, 35, 0.5);
+    color: #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+::-webkit-selection {
+    background: rgba(154, 193, 35, 0.5);
+    color: #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+html {
+    font-family: Fedra Sans Screen Regular,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+}
+body {
+    background-color: #fdfdfc;
+    color: #3a3427;
+    -webkit-text-size-adjust: 100%;
+}
+a,
+a:link,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -o-transition: color 0.1s linear;
+    -ms-transition: color 0.1s linear;
+    transition: color 0.1s linear;
+}
+a:hover,
+a:link:hover,
+a:visited:hover { color: #9ac123 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6,
+p,
+td,
+li,
+dt,
+dd,
+div,
+section,
+article { line-height: 1.65 }
+.lt-ie9 #header .social { display: none }
+#header .wrap {
+    width: 592px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 64px;
+}
+#header .wood {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 19.2px;
+    background: url(../images/wood-diagonal.jpg);
+    background-size: 350px;
+    background-position: center;
+    text-shadow: 0px -1px 1px rgba(136, 85, 51, 0.5),0px 1px 1px rgba(255, 255, 255, 0.5);
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px solid #E4C178;
+}
+#header h1,
+#header h2,
+#header #nav,
+#header aside p,
+#header .headshot { display: none }
+#header .headshot {
+    width: 100px;
+    float: left;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    margin-right: 20px;
+}
+#header h1 {
+    display: block;
+    font-family: Irma Slab Light,Georgia,Courier,monospace;
+    font-size: 25.6px;
+    line-height: 1.15;
+}
+#header aside .desc {
+    display: block;
+    font-size: 87.5%;
+    color: #c0b5a0;
+    margin-top: 16px;
+}
+#header aside .desc a.about { display: none }
+#header aside .desc a.about:hover { color: #9ac123 }
+#header aside .social {
+    margin-top: 16px;
+    float: left;
+    clear: left;
+}
+#header aside .social li {
+    font-size: 87.5%;
+    color: #c0b5a0;
+    float: left;
+    margin-bottom: 10px;
+    line-height: 26px;
+}
+#header aside .social li a { display: block }
+#header aside .social li i {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 5px;
+    background-size: 24px;
+    background-color: #c0b5a0;
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    -ms-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+}
+#header aside .social li.facebook a:hover { color: #3b5d98 }
+#header aside .social li.facebook a:hover i { background-color: #3b5d98 }
+#header aside .social li.facebook i { background-image: url(../images/social-facebook.png) }
+#header aside .social li.twitter a:hover { color: #29acdf }
+#header aside .social li.twitter a:hover i { background-color: #29acdf }
+#header aside .social li.twitter i { background-image: url(../images/social-twitter.png) }
+#header aside .social li.contact a:hover { color: #9ac123 }
+#header aside .social li.contact a:hover i { background-color: #9ac123 }
+#header aside .social li.contact i { background-image: url(../images/social-contact.png) }
+#header aside .social li.rss a:hover { color: #fa9c45 }
+#header aside .social li.rss a:hover i { background-color: #fa9c45 }
+#header aside .social li.rss i { background-image: url(../images/social-rss.png) }
+#header aside .social li.about a:hover { color: #9ac123 }
+#header aside .social li.about a:hover i { background-color: #9ac123 }
+#header aside .social li.about i { background-image: url(../images/social-contact.png) }
+article {
+    width: 592px;
+    margin: 0 auto;
+    display: block;
+    clear: left;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+article.link h1,
+article.link h2,
+article.link h3 { font-size: 120% !important }
+article.link h1:before,
+article.link h2:before,
+article.link h3:before {
+    content: "â†’ ";
+    font-family: "lucida grande",arial;
+    font-weight: bold;
+    margin-left: -1.5em;
+    width: 1.5em;
+    display: inline-block;
+    color: #c0b5a0;
+}
+article.link h1 a,
+article.link h2 a,
+article.link h3 a {
+    border-bottom: 1px solid rgba(154, 193, 35, 0.5);
+    color: #9ac123;
+}
+article.link h1 a:hover,
+article.link h2 a:hover,
+article.link h3 a:hover { color: #78961b }
+article header {
+    color: #c0b5a0;
+    font-size: 82.5%;
+    margin-bottom: 12px;
+}
+article header h1,
+article header h2,
+article header h3 {
+    font-family: Irma Slab Medium,Georgia,Courier,monospace;
+    display: inline;
+    font-size: 160%;
+    line-height: 1;
+    color: #3a3427;
+    margin-right: 16px;
+}
+article header h1 a,
+article header h2 a,
+article header h3 a {
+    margin-right: 0;
+    margin-left: 0;
+}
+article header time {
+    display: inline-block;
+    left: 0;
+}
+article header a {
+    margin-right: 16px;
+    display: inline;
+}
+article .entry-content blockquote {
+    font-size: 0.875em;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 12.2px;
+    margin-left: 12.2px;
+    border-left: 2px solid #dbd4c8;
+}
+article .entry-content blockquote p {
+    line-height: inherit;
+    font-size: inherit;
+}
+article .entry-content p {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+article .entry-content em,
+article .entry-content i {
+    font-family: Fedra Sans Screen Italic,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+article .entry-content strong,
+article .entry-content b {
+    font-family: Fedra Sans Screen Bold,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+article .entry-content strong em,
+article .entry-content em strong,
+article .entry-content i b,
+article .entry-content b i,
+article .entry-content strong i,
+article .entry-content i strong,
+article .entry-content b em,
+article .entry-content em b {
+    font-family: Fedra Sans Screen Bold Italic,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+article .entry-content .image figcaption {
+    font-size: 87.5%;
+    color: #c0b5a0;
+    padding-bottom: 12px;
+}
+article .entry-content table {
+    margin-bottom: 12px;
+    font-size: 15px;
+    border-spacing: 24px 0;
+    border-collapse: separate;
+    margin-left: -24px;
+}
+article .entry-content table th {
+    font-family: Fedra Sans Screen Bold,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+article .entry-content ul,
+article .entry-content ol {
+    margin-bottom: 12px;
+    list-style-position: outside;
+    margin-left: 26.4px;
+    font-size: 15px;
+}
+article .entry-content ul { list-style-type: square }
+article .entry-content ol { list-style-type: decimal }
+article .entry-content dl {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+article .entry-content dt {
+    font-family: Fedra Sans Screen Bold,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin-right: 8px;
+}
+article .entry-content dd {
+    font-size: 15px;
+    margin-left: 26.4px;
+}
+article .entry-content h3 {
+    font-family: Fedra Sans Screen Bold,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 115%;
+    margin-top: 24px;
+}
+article .entry-content h4 {
+    font-size: 115%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+article .entry-content sup {
+    vertical-align: super;
+    position: relative;
+    top: -2px;
+    font-size: 50%;
+    font-family: Fedra Sans Screen Bold,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+article .entry-content sup a { border-bottom: none }
+article .entry-content a { border-bottom: 1px solid rgba(154, 193, 35, 0.5) }
+article .entry-content .footnotes {
+    color: #c0b5a0;
+    margin-top: 36px;
+}
+article .entry-content .footnotes p { font-size: inherit }
+article .entry-content .footnotes li { font-size: 14px !important }
+article .entry-content .footnotes a[rel] {
+    margin-left: 4px;
+    color: #c0b5a0;
+    font-size: 80%;
+}
+article .entry-content .footnotes a[rel]:hover { color: #9ac123 }
+article .entry-content p { width: 100% }
+article .entry-content img { max-width: 100% }
+article .entry-content img.left {
+    max-width: 45%;
+    margin-right: 5%;
+    float: left;
+}
+article .entry-content img.right {
+    max-width: 45%;
+    margin-left: 5%;
+    float: right;
+}
+article .entry-content img.center {
+    margin: 0 auto;
+    width: auto;
+    display: block;
+    text-align: center;
+}
+article .more a {
+    color: #9ac123;
+    font-family: Fedra Sans Screen Bold,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    border-bottom: 1px solid rgba(154, 193, 35, 0.5);
+}
+article .more a:hover { color: #78961b }
+article .more a:after { content: " Â»" }
+.page header h1,
+.single header h1,
+.page header h2,
+.single header h2,
+.page header h3,
+.single header h3 {
+    font-size: 25.6px;
+    line-height: 1.15;
+}
+#footer {
+    width: 592px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 16px;
+    font-size: 87.5%;
+    color: #c0b5a0;
+}
+#footer .pagination {
+    margin-bottom: 32px;
+    font-size: 150%;
+}
+#footer .pagination a {
+    color: #9ac123;
+    font-family: Fedra Sans Screen Bold,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    border-bottom: 1px solid rgba(154, 193, 35, 0.5);
+    margin-right: 16px;
+}
+#footer .pagination a:hover { color: #78961b }
+#about article .social ul {
+    margin-left: 0 !important;
+    padding: 0 !important;
+    float: left;
+}
+#about article .social li {
+    display: block;
+    width: 181.33333333333334px;
+    margin-right: 16px;
+    list-style-type: none;
+}
+#about article .social li a {
+    display: block;
+    color: #fdfdfc;
+    background-color: #c0b5a0;
+    font-size: 14px;
+    border: none;
+    padding-left: 25px;
+}
+#about article .social li a strong {
+    font-size: 115%;
+    display: block;
+}
+@media screen and (max-width:630px) { 
+    html { font-size: 14px }
+    #header {
+        display: block;
+        display: inline-block;
+    }
+    #header:after {
+        clear: both;
+        content: ' ';
+        display: block;
+        font-size: 0;
+        line-height: 0;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    #header div.social {
+        width: 100%;
+        float: left;
+        margin-top: 3.5px;
+    }
+    #header div.social li {
+        margin-right: 5%;
+        font-size: 75% !important;
+    }
+    #header div.social li.rss { display: none }
+    #header .wood {
+        position: absolute;
+        height: 14px;
+    }
+    #header .wrap {
+        width: 86%;
+        margin: 0 7%;
+        margin-top: 42px;
+    }
+    #header h1 { font-size: 21px }
+    #header p.desc { margin-top: 3.5px }
+    article {
+        width: 86%;
+        margin: 0 7%;
+        margin-top: 14px;
+        margin-bottom: 21px;
+    }
+    article header { margin-bottom: 0 }
+    article header h1,
+    article header h2 { font-size: 140% }
+    article .entry-content p,
+    article .entry-content li,
+    article .entry-content td { font-size: 12.6px }
+    #footer {
+        width: 86%;
+        margin: 0 7%;
+        margin-top: 28px;
+        padding-bottom: 14px;
+    }
+}
+@media screen and (min-width:631px) and (max-width:960px) { 
+    #header {
+        display: inline-block;
+        width: 592px;
+        margin: 0 auto;
+        display: block;
+    }
+    #header:after {
+        clear: both;
+        content: ' ';
+        display: block;
+        font-size: 0;
+        line-height: 0;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    #header .social {
+        width: 100%;
+        float: left;
+    }
+    #header .social li { margin-right: 24px }
+    #header p { padding-right: 128px }
+}
+@media screen and (min-width:961px) { 
+    #header .wrap {
+        position: fixed;
+        left: 50%;
+        margin-left: -448px;
+        width: 288px;
+        top: 0;
+        margin-top: 64px;
+    }
+    #header .headshot {
+        display: block;
+        float: none;
+        margin-bottom: 16px;
+    }
+    #header .social li { clear: left }
+    article {
+        position: relative;
+        left: 50%;
+        margin-left: -128px;
+        margin-top: 64px;
+    }
+    #footer {
+        left: 160px;
+        position: relative;
+        left: 50%;
+        margin-left: -128px;
+        margin-top: 48px;
+    }
+}
+div.adelle { font-family: "adelle","georgia",serif }
+div.adelle #header h2 {
+    font-family: "adelle","georgia",serif;
+    font-weight: bold;
+    font-size: 175%;
+}
+div.adelle article header h1,
+div.adelle article header h2,
+div.adelle article header h3,
+div.adelle article header h4,
+div.adelle article header h5,
+div.adelle article header h6 {
+    font-family: "adelle","georgia",serif;
+    font-weight: bold;
+    font-size: 125%;
+}
+div.adelle article p { font-family: "adelle","georgia",serif }
+div.adelle article em,
+div.adelle article i {
+    font-family: "adelle","georgia",serif;
+    font-style: italic;
+}
+div.adelle article strong,
+div.adelle article b {
+    font-family: "adelle","georgia",serif;
+    font-weight: bold;
+}
+div.adelle article strong i,
+div.adelle article strong em,
+div.adelle article em strong,
+div.adelle article em b,
+div.adelle article b i,
+div.adelle article b em,
+div.adelle article i strong,
+div.adelle article i b {
+    font-family: "adelle","georgia",serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.comments { margin-top: 32px }
+.comments h4 {
+    font-family: Fedra Sans Screen Regular,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+#dsq-footer,
+.dsq-avatar,
+.dsq-trackback-url,
+#dsq-global-toolbar,
+#dsq-account-dropdown,
+#dsq-sort-select,
+#dsq-reply h3,
+#dsq-content h3,
+.dsq-avatar,
+#dsq-pagination,
+.dsq-brlink {
+    position: absolute !important;
+    left: -999em !important;
+}
+.dsq-reply { margin-top: 16px !important }
+.dsq-comment {
+    background: rgba(192, 181, 160, 0.25) !important;
+    margin-bottom: 12px !important;
+}
+.dsq-comment-header {
+    background: 0 !important;
+    border: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 12px !important;
+}
+.dsq-commenter-name {
+    font-family: Fedra Sans Screen Italic,Lucida Grande,Lucida Sans,Helvetica Neue,Arial,sans-serif !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+    color: #inherit !important;
+    margin-bottom: 0 !important;
+}
+.dsq-comment-body {
+    padding: 10px 16px !important;
+    color: #444 !important;
+    font-size: 15px !important;
+}
+.dsq-comment-message {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+.dsq-comment-message .dsq-comment-text p { margin-bottom: 12px !important }
+.dsq-comment-footer {
+    font-size: 13px !important;
+    color: rgba(0, 0, 0, 0.75) !important;
+}
+.dsq-textarea { margin-left: 0 !important }
+.dsq-moderator { background: rgba(192, 181, 160, 0.4) !important }

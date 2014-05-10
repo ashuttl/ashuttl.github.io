@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
 
   <!-- About this page -->
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} · {% else %}{% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="author" href="https://plus.google.com/102296897247662488056/">
@@ -26,6 +26,6 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="http://fonts.typotheque.com/WF-005300-001708.css" type="text/css" />
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/build/ashuttl.css" | prepend: site.baseurl }}">
 
 </head>
