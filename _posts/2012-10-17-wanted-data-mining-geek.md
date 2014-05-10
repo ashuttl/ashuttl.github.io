@@ -11,8 +11,7 @@ wordpress_url: http://ashuttleworth.com/?p=60
 date: '2012-10-17 09:21:28 -0400'
 date_gmt: '2012-10-17 13:21:28 -0400'
 post_type: link
-tags:
-- http://about.lincolncenter.org/about/employment/full-time/
+link: http://about.lincolncenter.org/about/employment/full-time/
 ---
 We’re hiring for a brand-new position at Lincoln Center. The title is “[Direct Marketing Manager](http://about.lincolncenter.org/about/employment/full-time/),” but that doesn’t really do it justice &ndash; it’s primarily a data-mining and business intelligence job. We’re looking for an all-around analytical thinker who can be creative about using whatever tools (Access, SQL, R, probably stuff I’ve never heard of) are needed to get at the human trends that are really behind the data.
 

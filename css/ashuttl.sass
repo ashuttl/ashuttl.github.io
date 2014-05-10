@@ -120,7 +120,7 @@ p,td,li,dt,dd,div,section,article
       display: inline
       &:after
         content: " "
-        display: inline-block
+        display: inline
         width: 1em
     .permalink
       color: $gray
@@ -129,3 +129,10 @@ p,td,li,dt,dd,div,section,article
   .article--body
     p
       margin: 0.125em 0 0.875em
+    blockquote
+      border-left: 2px solid $gray
+      color: darken($gray, 30%)
+      padding-left: 0.875em
+    a
+      +green-hover
+      border-bottom: 1px solid fade-out($green, .5)

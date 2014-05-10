@@ -11,10 +11,9 @@ wordpress_url: http://ashuttleworth.com/?p=51
 date: '2012-10-01 09:13:39 -0400'
 date_gmt: '2012-10-01 13:13:39 -0400'
 post_type: link
-tags:
-- http://www.openculture.com/2012/09/william_faulkner_tells_his_post_office_boss_to_stick_it_1924.html
+link: http://www.openculture.com/2012/09/william_faulkner_tells_his_post_office_boss_to_stick_it_1924.html
 ---
-Back before William Faulkner was <em>the William Faulkner, he was a clerk in the post office at the University of Mississippi, where, by all accounts, he was a terrible employee. When a postal inspector came to check up on him, he chafed, promptly resigning in this terse letter:
+Back before William Faulkner was _the_ William Faulkner, he was a clerk in the post office at the University of Mississippi, where, by all accounts, he was a terrible employee. When a postal inspector came to check up on him, he chafed, promptly resigning in this terse letter:
 
 > October, 1924
 > 

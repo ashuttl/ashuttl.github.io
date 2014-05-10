@@ -11,8 +11,7 @@ wordpress_url: http://ashuttleworth.com/?p=39
 date: '2012-09-25 09:03:50 -0400'
 date_gmt: '2012-09-25 13:03:50 -0400'
 post_type: link
-tags:
-- http://willhains.com/post/32219470116/were-on-a-road-to-nowhere
+link: http://willhains.com/post/32219470116/were-on-a-road-to-nowhere
 ---
 Will Hains, also known as [@fake_iOS6maps](http://twitter.com/intent/user?screen_name=fake_iOS6maps):
 

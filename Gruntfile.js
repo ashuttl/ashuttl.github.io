@@ -9,7 +9,8 @@ module.exports = function(grunt){
         options: {
           consolidateViaDeclarations: true,
           consolidateViaSelectors:    true,
-          consolidateMediaQueries:    false
+          consolidateMediaQueries:    false,
+          compress:                   true
         },
         files: {
           'css/build/ashuttl.css': 'css/build/ashuttl.css'

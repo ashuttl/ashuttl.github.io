@@ -11,8 +11,7 @@ wordpress_url: http://ashuttleworth.com/?p=23
 date: '2012-09-18 08:52:25 -0400'
 date_gmt: '2012-09-18 12:52:25 -0400'
 post_type: link
-tags:
-- http://en.wikipedia.org/wiki/List_of_sandwiches
+link: http://en.wikipedia.org/wiki/List_of_sandwiches
 ---
 I find this strangely captivating.
 

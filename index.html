@@ -9,9 +9,11 @@ layout: default
   {% for post in site.posts %}
     <div class="article">
       <div class="article--header">
-        <h2>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        {% if post.link %}
+          <h2 class="link-post"><a href="{{ post.link }}"><i></i>{{ post.title }}</a></h2>
+        {% else %}
+          <h2 class="article-post"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        {% endif %}
         <a class="permalink" href="{{ post.url | prepend: site.baseurl }}"><span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span></a>
       </div>
       <div class="article--body">

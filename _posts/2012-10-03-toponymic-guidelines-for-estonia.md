@@ -11,8 +11,7 @@ wordpress_url: http://ashuttleworth.com/?p=52
 date: '2012-10-03 09:15:31 -0400'
 date_gmt: '2012-10-03 13:15:31 -0400'
 post_type: link
-tags:
-- http://www.eki.ee/knn/ungegn/un7_gdl.htm
+link: http://www.eki.ee/knn/ungegn/un7_gdl.htm
 ---
 Today I stumbled across a document called “[Toponymic Guidelines for Map and Other Editors &ndash; Estonia](http://www.eki.ee/knn/ungegn/un7_gdl.htm),” and spent an unduly long time reading it.[^1]
 
