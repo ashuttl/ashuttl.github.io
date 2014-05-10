@@ -16,5 +16,5 @@ tags:
 ---
 We launched a new AmericanSongbook.org this week. It’s the first site built entirely in house at Lincoln Center, made possible by our new crackerjack design-development team of <a title="Mark Ho-Kane" href="http://mhokane.tumblr.com">Mark Ho-Kane</a> and <a title="Becky Soll" href="http://www.beckysoll.com">Becky Soll</a>.
 
-I particularly looking at the [before](http://americansongbook.org/2013/lea-salonga.html) and <a href="http://americansongbook.org/events/lawrence-brownlee">after.
+I particularly enjoy looking at the [before](http://americansongbook.org/2013/lea-salonga.html) and <a href="http://americansongbook.org/events/lawrence-brownlee">after.
 

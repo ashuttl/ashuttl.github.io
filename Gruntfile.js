@@ -9,7 +9,7 @@ module.exports = function(grunt){
         options: {
           consolidateViaDeclarations: true,
           consolidateViaSelectors:    true,
-          consolidateMediaQueries:    true
+          consolidateMediaQueries:    false
         },
         files: {
           'css/build/ashuttl.css': 'css/build/ashuttl.css'
@@ -48,6 +48,6 @@ module.exports = function(grunt){
   });
 
   grunt.registerTask('default', []);
-  grunt.registerTask('buildcss', ['sass', 'cssc', 'cssmin', 'autoprefixer']);
+  grunt.registerTask('buildcss', ['sass', 'autoprefixer', 'cssc', 'cssmin']);
 
 };

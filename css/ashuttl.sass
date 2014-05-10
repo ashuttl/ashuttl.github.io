@@ -44,7 +44,7 @@ p,td,li,dt,dd,div,section,article
 .content
   margin: 0 auto
   max-width: 750px
-  padding: 0 $bs
+  padding: 0 1em
 
 
 //////////////////////////////
@@ -52,7 +52,7 @@ p,td,li,dt,dd,div,section,article
 //////////////////////////////
 
 #header
-  margin-top: $bs * 2
+  margin-top: 2.5em
   font-size: 0.875em
   a:hover
     color: $green
@@ -64,10 +64,8 @@ p,td,li,dt,dd,div,section,article
     top: 0
     left: 0
     border-bottom: 1px solid $brown
-    height: $bs
+    height: 1em
     width: 100%
-    @media screen and (min-width: $small)
-      height: $bs * 1.25  
   .name
     .name--text
       +irma-light
@@ -80,6 +78,7 @@ p,td,li,dt,dd,div,section,article
       a:hover
         color: $green
   .social
+    overflow: auto
     @mixin social($color: $green, $icon: "")
       line-height: 24px
       float: left
@@ -112,3 +111,22 @@ p,td,li,dt,dd,div,section,article
       display: none
       @media screen and (min-width: $small)
         display: block
+
+.article
+  margin-top: 2em
+  .article--header
+    h2
+      +irma-medium
+      font-size: 1.25em
+      line-height: 1.1
+      display: inline
+      &:after
+        content: " "
+        display: inline-block
+        width: 1em
+    .permalink
+      color: $gray
+      display: inline-block
+  .article--body
+    p
+      margin: 0.125em 0 0.875em
