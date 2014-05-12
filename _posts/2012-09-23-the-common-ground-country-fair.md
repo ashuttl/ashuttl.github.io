@@ -10,7 +10,7 @@ wordpress_id: 37
 wordpress_url: http://ashuttleworth.com/?p=37
 date: '2012-09-23 09:00:36 -0400'
 date_gmt: '2012-09-23 13:00:36 -0400'
-post_type: link
+type: link
 link: http://www.mofga.org/theFair
 ---
 What I did this weekend:

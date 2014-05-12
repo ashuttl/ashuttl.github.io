@@ -10,7 +10,7 @@ wordpress_id: 48
 wordpress_url: http://ashuttleworth.com/?p=48
 date: '2012-09-28 09:12:21 -0400'
 date_gmt: '2012-09-28 13:12:21 -0400'
-post_type: link
+type: link
 link: http://qz.com/9440/why-steve-jobs-wouldnt-have-apologized-for-maps-and-tim-cook-shouldnt-have-either/
 ---
 Christopher Mims, in a piece for Quartz headlined “[Why Steve Jobs wouldn’t have apologized for Apple Maps, and Tim Cook shouldn’t either](http://qz.com/9440/why-steve-jobs-wouldnt-have-apologized-for-maps-and-tim-cook-shouldnt-have-either/),” has a very different take than mine on Tim Cook’s letter.

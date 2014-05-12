@@ -10,7 +10,7 @@ wordpress_id: 59
 wordpress_url: http://ashuttleworth.com/?p=59
 date: '2012-10-09 09:21:15 -0400'
 date_gmt: '2012-10-09 13:21:15 -0400'
-post_type: link
+type: link
 link: http://www.barbican.org.uk/artgallery/event-detail.asp?ID=13723
 ---
 _Rain Room_, the newest work by digital art collective Random International, consists of an indoor space in which it rains continuously everywhere except the very spot you’re standing. The raindrops, controlled by computers, just barely miss you.

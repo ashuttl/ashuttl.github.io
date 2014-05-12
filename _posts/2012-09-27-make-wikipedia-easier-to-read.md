@@ -10,7 +10,7 @@ wordpress_id: 43
 wordpress_url: http://ashuttleworth.com/?p=43
 date: '2012-09-27 09:06:32 -0400'
 date_gmt: '2012-09-27 13:06:32 -0400'
-post_type: article
+type: article
 ---
 The [conventional wisdom](http://www.webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2/) among designers is that blocks of text are easiest to read when each line is about 45&ndash;75 characters long. Shorter than that, and your eye has to move back and forth too often (before long, you’ll start skipping lines); much longer, and you’ll have a hard time focusing on the text or knowing how far along you are.
 

@@ -10,7 +10,7 @@ wordpress_id: 42
 wordpress_url: http://ashuttleworth.com/?p=42
 date: '2012-09-26 09:05:27 -0400'
 date_gmt: '2012-09-26 13:05:27 -0400'
-post_type: link
+type: link
 link: http://www.macmillandictionaryblog.com/pasta-is-life
 ---
 Pasta is a rich source of colorful Italian loan words. Orin Hargraves, on the blog of the Macmillan Dictionary:

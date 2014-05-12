@@ -10,7 +10,7 @@ wordpress_id: 79
 wordpress_url: http://ashuttleworth.com/?p=79
 date: '2013-10-31 22:08:16 -0400'
 date_gmt: '2013-11-01 02:08:16 -0400'
-post_type: link
+type: link
 link: http://americansongbook.org
 ---
 We launched a new AmericanSongbook.org this week. It’s the first site built entirely in house at Lincoln Center, made possible by our new crackerjack design-development team of <a title="Mark Ho-Kane" href="http://mhokane.tumblr.com">Mark Ho-Kane</a> and <a title="Becky Soll" href="http://www.beckysoll.com">Becky Soll</a>.

@@ -10,7 +10,7 @@ wordpress_id: 65
 wordpress_url: http://ashuttleworth.com/?p=65
 date: '2012-12-28 10:26:23 -0500'
 date_gmt: '2012-12-28 14:26:23 -0500'
-post_type: link
+type: link
 link: http://www.bbc.co.uk/news/science-environment-20629671
 ---
 It’s stuff like [this](http://www.bbc.co.uk/news/science-environment-20629671) that makes me feel like we’re living in the future.

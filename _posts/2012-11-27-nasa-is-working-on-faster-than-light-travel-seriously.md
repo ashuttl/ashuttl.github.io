@@ -10,7 +10,7 @@ wordpress_id: 63
 wordpress_url: http://ashuttleworth.com/?p=63
 date: '2012-11-27 10:25:16 -0500'
 date_gmt: '2012-11-27 14:25:16 -0500'
-post_type: link
+type: link
 link: http://io9.com/5963263/how-nasa-will-build-its-very-first-warp-drive
 ---
 > A few months ago, physicist Harold White stunned the aeronautics world when he announced that he and his team at NASA had begun work on the development of a faster-than-light warp drive. His proposed design, an ingenious re-imagining of an Alcubierre Drive, may eventually result in an engine that can transport a spacecraft to the nearest star in a matter of weeks &ndash; and all without violating Einstein’s law of relativity.

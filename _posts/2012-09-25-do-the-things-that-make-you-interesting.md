@@ -10,7 +10,7 @@ wordpress_id: 40
 wordpress_url: http://ashuttleworth.com/?p=40
 date: '2012-09-25 09:04:54 -0400'
 date_gmt: '2012-09-25 13:04:54 -0400'
-post_type: link
+type: link
 link: http://blog.ableparris.com/post/32247113849/focus-means-ignoring
 ---
 [Able Parris](http://twitter.com/intent/user?screen_name=ableparris):

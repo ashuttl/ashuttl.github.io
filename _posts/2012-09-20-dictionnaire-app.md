@@ -10,7 +10,7 @@ wordpress_id: 28
 wordpress_url: http://ashuttleworth.com/?p=28
 date: '2012-09-20 08:57:30 -0400'
 date_gmt: '2012-09-20 12:57:30 -0400'
-post_type: article
+type: article
 ---
 I just updated my MacBook Air to Mac OS X 10.8.2, and got a delightful surprise in the release notes: Dictionary.app now includes a French dictionary. To activate it, open the Dictionary app, go to Dictionary > Preferences, and check “<em>Multidictionnaire de la langue fran&ccedil;aise.” Once you’ve added it there, French will show up as an option in the dictionary Dashboard widget, too.
 

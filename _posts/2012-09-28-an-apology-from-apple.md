@@ -10,7 +10,7 @@ wordpress_id: 45
 wordpress_url: http://ashuttleworth.com/?p=45
 date: '2012-09-28 09:08:48 -0400'
 date_gmt: '2012-09-28 13:08:48 -0400'
-post_type: link
+type: link
 link: http://www.apple.com/letter-from-tim-cook-on-maps/
 ---
 This is the way to handle public-relations disasters. In particular, this customer-oriented paragraph, which suggests customers use alternatives from three of Apple’s biggest competitors:

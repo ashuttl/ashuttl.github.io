@@ -43,7 +43,7 @@ p,td,li,dt,dd,div,section,article
 
 .content
   margin: 0 auto
-  max-width: 750px
+  max-width: $small * 1.5
   padding: 0 1em
 
 
@@ -54,6 +54,9 @@ p,td,li,dt,dd,div,section,article
 #header
   margin-top: 2.5em
   font-size: 0.875em
+  @media screen and (min-width: $medium)
+    margin-top: 5em
+    margin-bottom: 3em
   a
     +green-hover
   .wood
@@ -111,17 +114,36 @@ p,td,li,dt,dd,div,section,article
         display: block
 
 .article
-  margin-top: 2em
+  margin-top: $bs * 2
+  @media screen and (min-width: $medium)
+    margin-top: $bs * 3.5
   .article--header
+    @media screen and (min-width: $medium)
+      margin-bottom: $bs * 0.6125
     h2
       +irma-medium
-      font-size: 1.25em
+      font-size: 1.1em
       line-height: 1.1
       display: inline
       &:after
         content: " "
         display: inline
         width: 1em
+      &.link-post
+        position: relative
+        &:before
+          content: "→ "
+          color: $gray
+          width: 1em
+          @media screen and (min-width: $medium)
+            position: absolute
+            left: -1.25em
+        a
+          color: $green
+          border-bottom: 1px solid fade-out($green, .5)
+          &:hover
+            color: darken($green, 10%)
+            border-bottom-color: $green
     .permalink
       color: $gray
       +green-hover
@@ -136,3 +158,12 @@ p,td,li,dt,dd,div,section,article
     a
       +green-hover
       border-bottom: 1px solid fade-out($green, .5)
+    img
+      max-width: 100%
+
+#footer
+  margin: $bs * 4 0 $bs * 2
+  p
+    color: $gray
+    a
+      +green-hover
