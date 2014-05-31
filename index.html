@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home">
+<div id="main" class="home">
 
   <div class="content">
 
@@ -14,7 +14,7 @@ layout: default
         {% else %}
           <h2 class="article-post"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         {% endif %}
-        <a class="permalink" href="{{ post.url | prepend: site.baseurl }}"><span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span></a>
+        <a class="permalink" href="{{ post.url | prepend: site.baseurl }}"><span class="post-date">{{ post.date | date: "%B %-d" }}{% if site.time | date:"%Y" == "2013" %}HELLO[{% endif %}</span></a>
       </div>
       <div class="article--body">
         {{ post.content }}

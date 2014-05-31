@@ -45,6 +45,26 @@ p,td,li,dt,dd,div,section,article
   margin: 0 auto
   max-width: $small * 1.5
   padding: 0 1em
+@media screen and (min-width: $large)
+  #header
+    .content
+      $header-width: $bs * 18
+      max-width: $header-width
+      position: fixed
+      left: 50%
+      margin-left: -$header-width * 1.7
+      .social
+        width: 100%
+    .wood
+      z-index: 100
+  #main, #footer
+    .content
+      $main-width: $small * 1.2
+      max-width: $main-width
+      position: relative
+      left: 50%
+      margin-left: -$main-width / 4
+    
 
 
 //////////////////////////////
@@ -76,6 +96,7 @@ p,td,li,dt,dd,div,section,article
       font-size: 2em
       line-height: 1.1
   .desc
+    margin: 1em 0
     .desc--text
       color: $gray
   .social
@@ -86,6 +107,8 @@ p,td,li,dt,dd,div,section,article
       width: 50%
       @media screen and (min-width: $small)
         width: 33%
+      @media screen and (min-width: $large)
+        width: 100%
       a
         color: $gray
         display: block
@@ -148,6 +171,7 @@ p,td,li,dt,dd,div,section,article
       color: $gray
       +green-hover
       display: inline-block
+      font-size: 0.875em
   .article--body
     p
       margin: 0.125em 0 0.875em
