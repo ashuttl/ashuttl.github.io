@@ -5,6 +5,8 @@ layout: default
 <div id="main" class="home">
 
   <div class="content">
+  
+  {% capture current_year %}{{ site.time | date: "%Y" }}{% endcapture %}
 
   {% for post in site.posts %}
     <div class="article">
@@ -14,7 +16,8 @@ layout: default
         {% else %}
           <h2 class="article-post"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         {% endif %}
-        <a class="permalink" href="{{ post.url | prepend: site.baseurl }}"><span class="post-date">{{ post.date | date: "%B %-d" }}{% if site.time | date:"%Y" == "2013" %}HELLO[{% endif %}</span></a>
+        {% capture year_of_post %}{{ post.date | date: "%Y" }}{% endcapture %}
+        <a class="permalink" href="{{ post.url | prepend: site.baseurl }}"><span class="post-date">{{ post.date | date: "%B %-d" }}{% if year_of_post != current_year %}, {{ year_of_post }}{% endif %}</span></a>
       </div>
       <div class="article--body">
         {{ post.content }}
