@@ -1,0 +1,39 @@
+/* @override http://pcagreatperformances.org/css/perfs.css */
+.dance #main h1 { color: #8cc63f; }
+.classical #main h1 { color: #edbf00; }
+.opera #main h1 { color: #ce171f; }
+.popular_music #main h1 { color: #00aeef; }
+.theater #main h1 { color: #ed1093; }
+.world_music #main h1 { color: #477f00; }
+a#buy-tickets { display: block; background: url(../images/buy-tickets-red.gif); text-indent: -999em; width: 88px; height: 24px; border: none; float: right; margin-top: -30px; }
+a#buy-tickets:hover { background-position: bottom; }
+.perfs p { clear: left; }
+.perfs .price { padding-top: 1.5em; }
+.perfs .price .price { color: black; font-weight: bold; }
+.review-quote { padding-bottom: 1em; background: transparent; padding: 0; margin-top: -.4em; font-size: 1.5em; font-family: "helvetica neue", helvetica, lucida grande; color: black; }
+.review-quote span { color: #aaa; font-size: .65em; font-family: "lucida grande", verdana; }
+.review-quote p { background: transparent; }
+.program li strong span { text-transform: uppercase; font-size: 80%; letter-spacing: 1px; padding-right: 1em; }
+.education { display: none; padding-bottom: 2em; }
+iframe.gmap { margin-top: 2em; }
+#main .genres img { margin: 0 10px 0 0; float: left; width: 60px; height: 60px; }
+#main .genres li li { position: relative; clear: both; height: 62px; margin-bottom: 2.25em; width: 100%; }
+#main .genres li ul { margin-bottom: 3em; }
+#main .genres h2 { margin-top: .75em; clear: both; padding-top: 0; padding-right: 0; padding-bottom: 0; }
+#main .genres h3 { padding: 0; }
+#main .genres a {  }
+#genre_broadway h2, #genre_broadway h2 span { color: #ff00db; }
+#genre_dance h2 { color: #a9d850; }
+#genre_music h2 { color: #00c6f4; }
+#genre_classical h2 { color: #e4d600; }
+#genre_opera h2 { color: #de0000; }
+#genre_broadway ul { background: url(../images/rule-broadway.gif) no-repeat; padding-left: 8px; border-left: 3px solid #e29bff; }
+#genre_dance ul { background: url(../images/rule-dance.gif) no-repeat; padding-left: 8px; border-left: 3px solid #c8e466; }
+#genre_music ul { background: url(../images/rule-music.gif) no-repeat; padding-left: 8px; border-left: 3px solid #81caff; }
+#genre_classical ul { background: url(../images/rule-classical.gif) no-repeat; padding-left: 8px; border-left: 3px solid #f4cf69; }
+#genre_opera ul { background: url(../images/rule-opera.gif) no-repeat; padding-left: 8px; border-left: 3px solid #e36a6a; }
+#main .genres .date { display: block; top: 17px; left: 74px; position: absolute; font-size: .875em; line-height: 2; }
+#main .genres .date strong { font-weight: normal; }
+.limited, #main .limited strong { color: #e4a827; }
+.soldout, #main .soldout strong { color: #c00; }
+.past, #main .past strong { color: #aaa; }

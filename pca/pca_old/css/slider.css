@@ -1,0 +1,22 @@
+.stripViewer .panelContainer .panel ul{  }
+.slider-wrap{ position : absolute; width : 100%; top : 36px; }
+.csw{ width : 860px; height : 200px; background : transparent; overflow : auto; }
+.csw .loading{ text-align : center; margin : 88px 0; height : 25px; }
+.stripViewer{ position : relative; overflow : hidden; margin : auto; width : 830px; height : 200px; clear : both; }
+.stripViewer .panelContainer{ position : relative; left : 0; top : 0; width : 100%; list-style-type : none; overflow : hidden; }
+.stripViewer .panelContainer .panel{ float : left; height : 100%; position : relative; width : 840px; text-align : center; }
+.stripViewer .panelContainer .panel .wrapper{  }
+.stripNav{ position : absolute; top : -40px; left : 279px; margin-top : -6px; }
+.stripNav ul{ list-style : none; position : absolute; top : 13px; }
+.stripNav ul li{ float : left; margin-right : 5px; text-align : left; text-indent : -999em; }
+.stripNav a{ width : 8px; height : 8px; display : block; font-size : 0.1em; background : transparent url(../images/glider-circles.gif) no-repeat right top; overflow : hidden; padding-top : 100px; }
+.stripNav li a:hover{ text-decoration : none; }
+.stripNav li a.current{ color : #fff; background-position : left top; }
+.stripNavL, .stripNavR{ position : absolute; top : 87px; }
+.stripNavL a, .stripNavR a{ display : block; height : 27px; width : 27px; background-image : url(../images/glider-arrows.gif); }
+.stripNavL a{ background-position : left top; }
+.stripNavR a{ background-position : right top; }
+.stripNavL a:hover{ background-position : left bottom; }
+.stripNavR a:hover{ background-position : right bottom; }
+.stripNavL{ left : -42px; }
+.stripNavR{ right : -42px; }

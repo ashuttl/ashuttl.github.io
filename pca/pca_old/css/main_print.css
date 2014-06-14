@@ -1,0 +1,183 @@
+body {
+	font: 12px 'lucida grande', verdana, tahoma, sans-serif;
+	color: #333;
+	line-height: 1.75;
+}
+
+#logo {
+	border-bottom: 3px solid #ddd;
+	text-align: left;
+	margin: 0;
+	padding: 0 0 20px;
+}
+
+#logo:after {
+	content: "Online at pcaGreatPerformances.org";
+	display: block;
+	float: right;
+	font: bold 11px "helvetica neue", verdana;
+	color: #de0000;
+}
+
+#footer {
+	border-top: 3px solid #ddd;
+	margin-top: 20px;
+}
+
+#comments {
+	border-top: 3px solid #ddd;
+	margin-top: 20px;
+}
+
+#aside {
+	border-top: 3px solid #ddd;
+	margin-top: -20px;
+}
+
+#aside p {
+	margin-top: 0;
+}
+
+#aside h2 {
+	margin-bottom: 0;
+}
+
+.comments, .comments li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.comments h4 {
+	margin-bottom: 0;
+}
+
+.comments p {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+.comments .date {
+	display: block;
+	margin-top: -1em;
+}
+
+h4 span, h3 span, h2 span, h1 span {
+	color: #aaa;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: .75em;
+	letter-spacing: .14em;
+	font-family: "helvetica neue",verdana,tahoma,sans-serif;
+}
+
+.text a:after, .text a:after {
+	content: " (" attr(href) ") ";
+	font-size: 11px;
+	font-family:"lucida grande", verdana,sans-serif;
+	color: #5b9200;
+	letter-spacing: 0;
+	text-transform: none;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #3381ff;
+}
+
+#nav, #topbar, #sidebar, #footer .one, #rss_link, #footer a, #stripNav0, #view-the-full-season, #home .one .links, #home .show, a#extended, #email-signup {
+	display: none;
+}
+
+h1, h2, h3, h4, strong {
+	color: black;
+}
+
+h1 {
+	font-family: "helvetica neue", "lucida grande", georgia;
+	font-weight: normal;
+	font-size: 40px;
+	margin-bottom: 0;
+	margin-top: .25em;
+}
+
+h2 {
+	font-family: "helvetica neue", "lucida grande", georgia;
+	text-transform: uppercase;
+	font-size: 1.15em;
+	letter-spacing: .2em;
+	margin-top: 2em;
+}
+
+h3 {
+	font-family: "helvetica neue", "lucida grande", georgia;
+	margin-bottom: 0;
+}
+
+p.date {
+	margin-top: 0;
+}
+
+.date, .date strong {
+	color: #aaa;
+}
+
+.blog .two-col h2 {
+	text-transform: none;
+	letter-spacing: 0;
+	font: normal 20px/1.25 "helvetica neue", georgia, serif;
+	margin: 0;
+}
+
+.entry {
+	margin-bottom: 5em;
+}
+
+
+.member_photo {
+	float: left;
+	margin-right: .5em;
+}
+
+img {
+	border: none;
+}
+
+.blog h1 {
+	margin-bottom: 20px;
+}
+
+#comment_form {
+	display: none;
+}
+
+.review-quote {
+	font-family: "helvetica neue", georgia, serif;
+	font-size: 16px;
+	margin: 20px 0 0;
+	padding: 0;
+}
+
+.review-quote span {
+	color: #aaa;
+	font-size: 11px;
+}
+
+
+
+.caption {
+	font-family: "helvetica neue", "lucida grande", verdana;
+	color: #000;
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: .75em;
+	padding-top: 0;
+	text-align: right;
+	width: 612px;
+}
+
+.caption .credit {
+	font-weight: normal;
+	color: #aaaaaa;
+}

@@ -1,0 +1,192 @@
+/*
+
+CSS, HTML and site design © 2007 by Andrew Shuttleworth of PCA Great Performances.
+
+*/
+
+/* @group Reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,img {
+	border: 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+caption,th {
+	text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+abbr,acronym {
+	border: 0;
+}
+
+body {
+	font: .9em arial,helvetica,clean,sans-serif;
+	color: #2c2c2c;
+}
+
+table {
+	font-size: inherit;
+	font: 100%;
+}
+
+select, input, textarea {
+	font: 90% arial;
+}
+
+pre, code {
+	font: 115% monospace;
+	*font-size: 100%;
+}
+
+body * {
+	line-height: 1.33em;
+}
+
+/* @end */
+
+.nocss {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em strong, strong em {
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* @group Layout */
+
+.content {
+	width: 770px;
+	margin: 0 auto;
+}
+
+#header, #main, #footer {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+/* @end */
+
+/* @group #header */
+
+#nav1 {
+	margin-top: 45px;
+}
+
+#nav2 {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	height: 27px;
+	font-size: .75em;
+	background-color: #7e7e7e;
+	color: #bbb;
+}
+
+#nav2 em {
+	font-size: 1.2em;
+	margin-right: 12px;
+	font-style: normal;
+}
+
+#nav2 strong {
+	font-style: normal;
+}
+
+#nav2 a {
+	color: white;
+}
+
+#porttix {
+	float: left;
+	padding-top: 6px;
+}
+
+#top-links {
+	float: right;
+	padding-top: 6px;
+}
+
+#logo {
+	width: 192px;
+	height: 90px;
+	float: left;
+	text-indent: -999em;
+	background: url(images/logo.gif) no-repeat;
+	margin-left: -7px;
+}
+
+#nav1 ul {
+	float: right;
+	width: 545px;
+}
+
+/* @end */
+
+/* @group #footer */
+
+#footer {
+	font-size: .75em;
+	color: #909090;
+	margin-top: 20px;
+}
+
+#footer .content {
+	border-top: 3px solid #bbb;
+	padding-top: 8px;
+}
+
+#footer a {
+	color: #3f3f3f;
+}
+
+#copyright {
+	float: left;
+}
+
+#footer-links {
+	float: right;
+}
+
+/* @end */
+

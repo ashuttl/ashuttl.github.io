@@ -1,0 +1,72 @@
+/* @override http://pcagreatperformances.org/css/home.css */
+
+.pinkmartini{
+	background-image: url(../images/2007-08/pink-martini-bg.jpg);
+}
+
+.pinkmartini .show{
+	background-image: url(../images/2007-08/pink-martini-large.jpg);
+}
+
+.momix{
+	background-image: url(../images/2007-08/momix-bg.jpg);
+}
+
+.momix .show{
+	background-image: url(../images/2007-08/momix-large.jpg);
+}
+
+.traviata{
+	background-image: url(../images/2007-08/traviata-bg.jpg);
+}
+
+.traviata .show{
+	background-image: url(../images/2007-08/traviata-large.jpg);
+}
+
+#main .traviata .content .links {
+	position: relative;
+	top: -10px;
+}
+
+.limon{
+	background-image: url(../images/2007-08/limon-bg.jpg);
+}
+
+.limon .show{
+	background-image: url(../images/2007-08/limon-large.jpg);
+}
+
+#main .limon .content .links {
+	position: relative;
+	top: -14px;
+	text-shadow: #374047 0 0 5px;
+}
+
+.mobydick{
+	background-image: url(../images/2007-08/mobydick-bg.jpg);
+}
+
+.mobydick .show{
+	background-image: url(../images/2007-08/mobydick-large.jpg);
+}
+
+/* ----------------- */
+
+#home #main .one{ height : 669px ; position : relative ; top : -20px ; z-index : 0 ; background-position : center top ; background-repeat : repeat-x ; }
+#home #main .one .show{ height : 407px ; background-position : center top ; background-repeat : no-repeat ; }
+#home #main .one .show p, #home #main .one .show h2{ margin-left : -999em ; }
+#home #main .one .links{ float : right ; margin-top : -61px ; position : relative ; }
+#home #main .one a{ color : white ; font-weight : bold ; text-align : right ; }
+#home #main .one a.big{ width : 830px ; height : 314px ; left : 50% ; display : block ; position : absolute ; margin-left : -415px ; text-align : left ; text-indent : -999em ; z-index : 55 ; top : 24px ; }
+.home #main{ padding : 0 ; background : transparent ; }
+#upcoming-performances{ background : url(../images/upcoming-performances.gif) no-repeat ; }
+#home .upcoming-performances img{ margin : 0 7px 0 0 ; padding : 0 ; border : 0 ; width : 200px ; }
+#we-bring-maine-the-world{ background : url(../images/we-bring-maine-the-world.gif) no-repeat ; }
+#home #main .two{ margin-top : 11px ; }
+#home .rss{ float : right ; text-align : right ; margin-top : -14px ; font-weight : bold ; font-size : 1.25em ; }
+#home .rss a{ border : 0 ; color : black ; }
+#home .rss a:hover{ text-decoration : underline ; }
+#home .rss a img{ vertical-align : text-top ; margin : 0 ; }
+#home .rss span{ display : block ; font-size : .8em ; }
+#home .rss span a{ font-weight : normal ; color : #96b3e2 ; }

@@ -1,0 +1,44 @@
+/* @override http://pcagreatperformances.org/css/press.css */
+
+#main h1 {
+	height: auto;
+	font-size: 2em;
+}
+
+#main .subheading {
+	font-size: 1.5em;
+	color: black;
+	font-family: "helvetica neue", helvetica, "lucida grande", verdana;
+	font-weight: bold;
+	padding: .5em 0 0;
+}
+
+#main .information {
+	padding: 0;
+	text-align: right;
+}
+
+#main .boilerplate {
+	border-top: 1px solid #ddd;
+	margin-top: 2em;
+	padding-top: 1.75em;
+	color: #777;
+	font-size: .85em;
+}
+
+#sidebar a#sign-up {
+	display: block;
+	background: url(../images/sign-up.gif);
+	text-indent: -999em;
+	width: 70px;
+	height: 24px;
+	border: none;
+	float: left;
+	margin-top: 5px;
+	border: none;
+	padding: 0;
+}
+
+#sidebar a#sign-up:hover {
+	background-position: bottom;
+}

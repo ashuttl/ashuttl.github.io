@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+     /////////////////////
+     //Little add-on functions to enhance the user experience.
+     
+     //clear the email entry field when it gains focus
+     function clearDefault(email) {
+        if (email.value == email.defaultValue) email.value = "";
+     }
+     
+     //replace the default value when it loses focus if nothing has been entered
+     function returnDefault(email) {
+        if (email.value == "") email.value="Enter your email address here";
+     }
+//]]>
+</script>
+<style type="text/css" media="screen">
+/*<![CDATA[*/
+    @import url("pca-main.css");
+/*]]>*/
+</style>
+
+  <title>PCA Great Performances | Portland, Maine</title>
+</head>
+
+<body id="home" class="home">
+  <div id="header">
+    <div id="nav1">
+      <div class="content">
+        <h1 id="logo">PCA Great Performances</h1>
+
+        <ul>
+          <li class="perfs"><a href="#"><strong>Performances</strong> Tickets and information</a></li>
+
+          <li class="offstage"><a href="#"><strong>PCA Offstage</strong> Education and outreach for young and old</a></li>
+
+          <li class="about"><a href="#"><strong>About us</strong> Who we are, our history, directions, parking, venues and more</a></li>
+
+          <li class="support"><a href="#"><strong>Your support</strong> We rely on individual contributions and corporate sponsorships</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="nav2">
+      <div class="content">
+        <div id="porttix">
+          <a href="#"><em>Call PortTix: <strong>207.842.0800</strong></em></a> Monday to Saturday, noon to 6 p.m.
+        </div>
+
+        <div id="top-links">
+          <a href="#">Contact us</a> | <a href="#">Press room</a>
+        </div>
+      </div>
+    </div>
+    <hr class="nocss" />
+  </div><!--end #header-->
+
+  <div id="main">
+    <div class="content">
+      <div class="group">
+        <div class="image-lg">
+          <a id="image-lg" href="2007-08/emmylou.shtml" name="image-lg"><img src="images/se08/emmylou-lg.jpg" alt="Emmylou Harris" /><br />
+          <img src="images/se08/emmylou-capt.gif" alt="October 19" /><br /></a> <a href="2007-08/emmylou.shtml"><img src="images/site/butt-more-info.gif" /></a>
+        </div>
+
+        <div class="images-sm">
+          <a href="2007-08/momix.shtml"><img src="images/se08/momix-sm.jpg" alt="Momix: Lunar Sea - January 24" /></a><br />
+          <a href="2007-08/haimovitz.shtml"><img src="images/se08/haimovitz-sm.jpg" alt="Matt Haimovitz, cello - November 8" /></a><br />
+          <a href="2007-08/blast.shtml"><img src="images/se08/momix-sm.jpg" alt="Blast! national tour - March 12-13" /></a>
+        </div>
+      </div>
+
+      <div class="group">
+        <h1 class="we-bring-maine">We bring Maine the world</h1>
+
+        <p>Each year since 1931, PCA Great Performances has presented a season of world-class performing artists in Portland, Maine. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <hr class="nocss" />
+
+        <div class="box">
+          <h2>Latest news</h2>
+
+          <h3>A new composition</h3>
+
+          <p>For the first time, PCA Great Performances has commissioned a new piece of music, by Maine composer Elliott Schwartz. <a href="#">Read more.</a></p>
+        </div>
+
+        <div class="box">
+          <h2>Email newsletter</h2>
+
+          <p>Sign up for our email newsletter and we’ll keep you up to date with occasional messages about our shows and activities.</p>
+
+          <form method="post" accept-charset="utf-8" action="http://app.intellicontact.com/icp/signup.php">
+            <!--These fields tell us what to do when the form is submitted-->
+
+            <div class="nocss">
+              <input type="hidden" name="errorredirect" value="#" /> <input type="hidden" name="redirect" value="#" /> <!--These fields identify us to IntelliContact-->
+               <input type="hidden" name="listid" value="9888581" /> <input type="hidden" name="specialid:9888581" value="FUZ1" /> <input type="hidden" name="clientid" value="80571" /> <input type="hidden" name="reallistid" value="1" /> <input type="hidden" name="doubleopt" value="0" />
+            </div><!--This is the visible form-->
+            <input onfocus="clearDefault(this)" onblur="returnDefault(this)" type="text" name="fields_email" value="Enter your email address here" id="fields_email" /> <input type="image" src="images/site/butt-signup.gif" name="submit" value="Sign up" id="submit" alt="Sign up" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div><!--end #main-->
+
+  <div id="footer">
+    <div class="content">
+      <hr class="nocss" />
+
+      <div id="copyright">
+        © 2007 PCA Great Performances
+      </div>
+
+      <div id="footer-links">
+        <a href="#">Performances</a> | <a href="#">Tickets</a> | <a href="#">About</a> | <a href="#">Education</a> | <a href="#">Your support</a> | <a href="#">Contact</a> | <a href="#">Press room</a>
+      </div>
+    </div>
+  </div><!--end #footer-->
+</body>
+</html>
