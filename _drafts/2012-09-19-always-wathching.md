@@ -1,15 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: '‘Always wathching’'
-author: ashuttl
-author_login: ashuttl
-author_email: ashuttleworth@gmail.com
-wordpress_id: 25
-wordpress_url: http://ashuttleworth.com/?p=25
-date: '2012-09-19 08:54:29 -0400'
-date_gmt: '2012-09-19 12:54:29 -0400'
 type: article
 ---
 Spotted this morning along Broadway just north of Columbus Circle:
