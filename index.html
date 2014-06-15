@@ -8,7 +8,7 @@ layout: default
   
   {% capture current_year %}{{ site.time | date: "%Y" }}{% endcapture %}
 
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <div class="article">
       <div class="article--header">
         {% if post.link %}
@@ -25,6 +25,35 @@ layout: default
     </div>
   {% endfor %}
 
+
+  {% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a>
+  {% else %}
+    <span class="unavailable">Previous</span>
+  {% endif %}
+  <span class="numbers">
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="current">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a class="number" href="{{ '/' }}">{{ page }}</a>
+    {% else %}
+      <a class="number" href="/{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+  </span>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | replace: '//', '/' }}">Next</a>
+  {% else %}
+    <span class="unavailable">Next</span>
+  {% endif %}
+</div>
+{% endif %}
   </div>
+
+
 
 </div>
