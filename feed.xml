@@ -10,7 +10,7 @@ layout: none
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
     {% for post in site.posts limit:10 %}
       <item>
-        <title>{{ post.title | xml_escape }}{% if post.link %} &rarr;{% endif %}</title>
+        <title>{{ post.title | xml_escape }}{% if post.link %} &#8594;{% endif %}</title>
         <description>{{ post.content | xml_escape }}&lt;p&gt;&#8449;&lt;/p&gt;</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{% if post.link %}{{ post.link }}{% else %}{{ post.url | prepend: site.baseurl | prepend: site.url }}{% endif %}</link>
