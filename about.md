@@ -3,7 +3,7 @@ layout: page
 title: Nice to Meet You
 permalink: /about/
 ---
-#### I&rsquo;m Andrew Shuttleworth. I&rsquo;ve worked as a writer, graphic designer, web developer, and arts marketer. I used to live in Maine and now I live in Brooklyn, New York.
+### I&rsquo;m Andrew Shuttleworth. I&rsquo;ve worked as a writer, graphic designer, web developer, and arts marketer. I used to live in Maine and now I live in Brooklyn, New York.
 
 I&rsquo;m the Director of Digital Marketing Services for&nbsp;[Lincoln Center for the Performing Arts](http://lc.lincolncenter.org). I also occasionally freelance as a copywriter and graphic designer.
 
