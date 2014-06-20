@@ -1,5 +1,6 @@
 @import _config
 @import _reset
+@import _syntax
 
 
 //////////////////////////////
@@ -30,6 +31,7 @@ p,td,li,dt,dd,div,section,article
     +fedra-italic
   strong em, em strong
     +fedra-bold-italic
+
 
 //////////////////////////////
 // Layout
@@ -141,7 +143,7 @@ p,td,li,dt,dd,div,section,article
     @media screen and (min-width: $medium)
       margin-bottom: $bs * 0.6125
     h2
-      #main.page &, #main.post &
+      #main.page &, #main.post &, &.long-post
         font-size: 1.6em
         line-height: 1.1
       +irma-medium
@@ -174,11 +176,12 @@ p,td,li,dt,dd,div,section,article
       font-size: 0.875em
   .article--body
     h3
+      +fedra-bold
       font-size: 1.25em
-      line-height: 1.4
-      margin: 0.125em 0 0.875em
+      margin-top: 1em
     p
       margin: 0.125em 0 0.875em
+      &.special
     blockquote
       border-left: 2px solid $gray
       color: darken($gray, 30%)
@@ -186,6 +189,10 @@ p,td,li,dt,dd,div,section,article
     a
       +green-hover
       border-bottom: 1px solid fade-out($green, .5)
+    sup
+      font-size: 0.65em
+      position: relative
+      top: -0.65em
     img
       max-width: 100%
     ul, ol
@@ -194,6 +201,44 @@ p,td,li,dt,dd,div,section,article
       list-style-type: square
     ol
       list-style-type: decimal
+    .footnotes
+      margin-top: 2em
+      border-top: 1px solid fade-out($gray, .8)
+      padding-top: 2em
+      font-size: 0.875em
+    p code
+      +fedra-mono
+      background: fade-out($gray, .8)
+      padding: 2px 5px
+      font-size: .9em
+      border-radius: 3px
+      margin: 0 3px
+  .article--readmore
+    margin-top: 1em
+    a
+      color: $green
+      +fedra-bold
+      &:after
+        content: " »"
+
+.highlighttablewrap
+  max-width: 100%
+  overflow: auto
+  background: fade-out($gray, .9)
+  border-radius: 5px
+  +fedra-mono
+.highlighttable
+  font-size: .9em
+  .linenos
+    color: $white
+    background-color: fade-out($gray, .6)
+    text-align: right
+    .linenodiv
+      padding-left: .75 * $bs
+      padding-right: .4 * $bs
+      // border-right: 1px solid fade-out($gray, .7)
+  .code
+    padding: 0 .5 * $bs
 
 .pagination
   padding-top: 4em

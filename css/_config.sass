@@ -22,7 +22,8 @@ $huge: 1300px
 //////////////////////////////
 // Typography
 //////////////////////////////
-$fallbacks: "Lucida Grande","Lucida Sans","Helvetica Neue",Arial,sans-serif
+$fallbacks: "Helvetica Neue","Lucida Grande","Lucida Sans",Arial,sans-serif
+$fallbacks-mono: Cousine,Courier,Consolas,monospace
 
 =normalize
   font-weight: normal
@@ -46,6 +47,22 @@ $fallbacks: "Lucida Grande","Lucida Sans","Helvetica Neue",Arial,sans-serif
 =irma-medium
   font-family: "Irma Slab Medium",Georgia,Courier,monospace
   +normalize
+=fedra-mono
+  font-family: "Fedra Mono Screen Regular",$fallbacks-mono
+  +normalize
+=fedra-mono-bold
+  font-family: "Fedra Mono Screen Bold",$fallbacks-mono
+  +normalize
+  font-weight: bold
+=fedra-mono-italic
+  font-family: "Fedra Mono Screen Italic",$fallbacks-mono
+  +normalize
+  font-style: italic
+=fedra-mono-bold-italic
+  font-family: "Fedra Mono Screen Bold Italic",$fallbacks-mono
+  +normalize
+  font-weight: bold
+  font-style: italic
 
 =green-hover
   &:hover

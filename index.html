@@ -14,13 +14,23 @@ layout: default
         {% if post.link %}
           <h2 class="link-post"><a href="{{ post.link }}"><i></i>{{ post.title }}</a></h2>
         {% else %}
+        {% if post.teaser %}
+          <h2 class="long-post"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        {% else %}
           <h2 class="article-post"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        {% endif %}
+        {% endif %}{% endif %}
         {% capture year_of_post %}{{ post.date | date: "%Y" }}{% endcapture %}
         <a class="permalink" href="{{ post.url | prepend: site.baseurl }}"><span class="post-date">{{ post.date | date: "%B %-d" }}{% if year_of_post != current_year %}, {{ year_of_post }}{% endif %}</span></a>
       </div>
       <div class="article--body">
-        {{ post.content }}
+        {% if post.teaser %}
+          {{ post.teaser | markdown }}
+        <div class="article--readmore">
+          <a href="{{ post.url | prepend: site.baseurl }}">Read Post</a>
+        </div>
+        {% else %}
+          {{ post.content }}
+        {% endif %}
       </div>
     </div>
   {% endfor %}
