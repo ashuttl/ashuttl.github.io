@@ -176,9 +176,12 @@ p,td,li,dt,dd,div,section,article
       font-size: 0.875em
   .article--body
     h3
+      // +fedra-bold
+      font-size: 1.45em
+      margin-top: 2.25em
+    h4
       +fedra-bold
-      font-size: 1.25em
-      margin-top: 1em
+      margin-top: 1.85em
     p
       margin: 0.125em 0 0.875em
       &.special
@@ -206,20 +209,50 @@ p,td,li,dt,dd,div,section,article
       border-top: 1px solid fade-out($gray, .8)
       padding-top: 2em
       font-size: 0.875em
-    p code
+    p code, li code, table:not(.highlighttable) code
       +fedra-mono
-      background: fade-out($gray, .8)
-      padding: 2px 5px
-      font-size: .9em
-      border-radius: 3px
-      margin: 0 3px
+      // background: fade-out($gray, .9)
+      // padding: 2px 5px
+      // font-size: .95em
+      // border-radius: 3px
+      position: relative
+    > pre
+      background: fade-out($gray, .9)
+      border-radius: 5px
+      padding: 3px 5px
+      margin-bottom: 1em
+      code
+        +fedra-mono
+        &.language-text
+          font-family: "helvetica neue", sans-serif
+    table:not(.highlighttable)
+      width: 100%
+      margin-left: -6px
+      margin-bottom: 1em
+      th
+        border-bottom: 1px solid fade-out($gray, .8)
+        text-align: left
+        +fedra-italic
+      th, td
+        padding: 3px 6px
+        p
+          margin-top: 1em
+    hr
+      background-color: fade-out($gray, 0.8)
+      border: none
+      height: 1px
+      margin-top: 1.5em
+      margin-bottom: 1.5em
   .article--readmore
     margin-top: 1em
     a
       color: $green
       +fedra-bold
       &:after
-        content: " »"
+        content: "  →"
+        position: absolute
+        margin-left: 0.25em
+        color: $gray
 
 .highlighttablewrap
   max-width: 100%
@@ -227,6 +260,7 @@ p,td,li,dt,dd,div,section,article
   background: fade-out($gray, .9)
   border-radius: 5px
   +fedra-mono
+  margin-bottom: 1em
 .highlighttable
   font-size: .9em
   .linenos
@@ -234,8 +268,8 @@ p,td,li,dt,dd,div,section,article
     background-color: fade-out($gray, .6)
     text-align: right
     .linenodiv
-      padding-left: .75 * $bs
-      padding-right: .4 * $bs
+      padding-left: .5 * $bs
+      padding-right: .5 * $bs
       // border-right: 1px solid fade-out($gray, .7)
   .code
     padding: 0 .5 * $bs
