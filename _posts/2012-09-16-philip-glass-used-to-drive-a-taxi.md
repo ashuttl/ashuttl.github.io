@@ -3,17 +3,10 @@ layout: post
 status: publish
 published: true
 title: Philip Glass used to drive a taxi
-author: ashuttl
-author_login: ashuttl
-author_email: ashuttleworth@gmail.com
-wordpress_id: 22
-wordpress_url: http://ashuttleworth.com/?p=22
-date: '2012-09-16 08:50:47 -0400'
-date_gmt: '2012-09-16 12:50:47 -0400'
 type: link
 link: http://www.studio360.org/2012/sep/14/a-conversation-with-philip-glass/
 ---
-According to WNYC’s _Studio 360_, via [Mark](http://twitter.com/intent/follow?screen_name=markhokane) Ho-Kane:
+According to WNYC’s _Studio 360_, via [Mark Ho-Kane](http://twitter.com/intent/follow?screen_name=markhokane):
 
 > In 1976, Philip Glass was an unknown composer &ndash; almost pushing 40, and driving a taxi to make ends meet &ndash; when he got his break: a new work performed at New York’s <em>echt-prestigious Metropolitan Opera House.
 
