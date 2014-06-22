@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://ashuttleworth.com"
 
 # Build settings
-# markdown: maruku
+markdown: kramdown
 permalink: /:year/:month/:title
 paginate: 5
 paginate_path: page:num
