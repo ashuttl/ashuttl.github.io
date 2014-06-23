@@ -1,0 +1,8 @@
+@font-face {
+font-family: Univers;
+src: url("Univers.otf");
+}
+
+h1 {
+	font-family: Univers, Helvetica Neue, Arial;
+}
