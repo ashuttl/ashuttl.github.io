@@ -319,7 +319,7 @@ end if
 
 #### Completed task logging to Day One
 
-This last one is a bonus and a little bit of an experiment. Motivated by [articles about][a1] [the importance][a2] [of logging][a3] [what you've done][a4], the satisfaction of [Todoist's "karma" graph](https://todoist.com/karma), and my own deteriorating memory, I decided to start taking tasks `@done` in my TaskPaper "Archive" project and logging them in my [Day One](http://dayoneapp.com) journal. The script then deletes these tasks from my TaskPaper document. I don't use Day One ritualistically yet, so, I reasoned, this might make my journal a somewhat more useful representation of my life even when I'm not actively writing in it.
+This last one is a bonus and a little bit of an experiment. Motivated by [articles about][a1] [the importance][a2] [of logging][a3] [what you've done][a4], the satisfaction of [Todoist's "karma" graph](https://todoist.com/karma), and my own deteriorating memory, I decided to start taking tasks `@done` in my TaskPaper "Archive" project and logging them in my [Day One](http://dayoneapp.com) journal. The script then deletes these tasks from my TaskPaper document. I don't use Day One ritually yet, so, I reasoned, this might make my journal a somewhat more useful representation of my life even when I'm not actively writing in it.
 
 [a1]: http://99u.com/workbook/24647/labrat-are-daily-logbooks-worth-the-work
 [a2]: http://www.lifehack.org/articles/productivity/how-logging-your-day-can-lead-to-higher-effectiveness.html
