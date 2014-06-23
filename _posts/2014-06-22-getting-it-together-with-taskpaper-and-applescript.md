@@ -11,7 +11,7 @@ I never stuck with any one of these systems for more than a few months at a time
 [^1]: Although [Mike Abdullah is working](http://mikeabdullah.net/thl-ios7-diary-1-storyboard-merging.html) on changing that.
 [^2]: The best things around right now for this are probably [Listacular](http://www.bloomingsoft.com/listacular/) and [Editorial](http://omz-software.com/editorial/), but they lack support for the most important part of TaskPaper: [its query syntax][tpqueries].
 
-Well, I've finally hit on a system that works for me, and it's been more or less stable for the past year now, which is a personal record. For anyone out there who, like me, is a Mac and iOS user who's comfortable with tinkering and wants things to work in a very particular way, I thought I'd share.
+Well, I've finally hit on a system that works for me, and it's been more or less stable for the past year now, which is a personal record. For anyone out there who, like me, is a Mac and iOS user who's comfortable with tinkering and wants things to work in a very particular way, I thought I'd share. Maybe it'll give you an idea or two you might want to incorporate into your own system.
 
 Here's the short version:
 
