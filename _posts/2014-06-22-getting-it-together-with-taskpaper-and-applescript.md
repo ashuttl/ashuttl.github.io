@@ -29,7 +29,7 @@ TaskPaper is such a great idea. Because it's essentially plain text, it has a lo
 
 There's no real mobile interface for it [anymore](http://simplicitybliss.com/blog/taskpaper-for-ios-ceased), and the old one wasn't particularly good anyway. That had been holding me back from using it for a long time, until I realized that I was almost entirely managing my tasks while sitting in front of my Mac – and that I could make my own mobile interface for it with AppleScript if I wanted to.
 
-I don't think I'm doing anything particularly novel inside my TaskPaper file itself. I use some a basic structure of projects and some pretty typical tags (`@next`, `@today`, `@overdue`, `@start()`, `@due()`) to organize and filter my tasks, and I use a slightly customized version of the excellent [Transparent Blue][tb] theme. (My version is [here](https://gist.github.com/ashuttl/52fd642bc979ec607c05).)
+I don't think I'm doing anything particularly novel inside my TaskPaper file itself. I use a basic structure of projects and some pretty typical tags (`@next`, `@today`, `@overdue`, `@start()`, `@due()`) to organize and filter my tasks, and I use a slightly customized version of the excellent [Transparent Blue][tb] theme. (My version is [here](https://gist.github.com/ashuttl/52fd642bc979ec607c05).)
 
 
 #### TextExpander
@@ -326,7 +326,9 @@ This last one is a bonus and a little bit of an experiment. Motivated by [articl
 [a3]: http://brettterpstra.com/projects/doing/
 [a4]: https://coderwall.com/p/bcthew
 
-If the task has a date in the `@done` tag – like `@done(2014-06-22)`, as tasks automatically do when being marked as done in TaskPaper – it will be automatically logged under that date in Day One. (If it's missing, it's logged under today.) This means that I can look through my Day One journal to see at a glance what tasks I completed on that date. This is handy for reporting to my boss about what I've been up to, but even more importantly than that, it shows the promise of giving me a sense of context and personal history. I'll be interested in reexamining the importance of this logging in a year or so.
+If the task has a date in the `@done` tag – like `@done(2014-06-22)`, as tasks automatically do when being marked as done in TaskPaper – it will be automatically logged under that date in Day One. (If the `@done` tag has no date, the task is logged in Day One under today's date.) This means that I can look through my Day One journal to see at a glance what tasks I completed on that date, and that I don't need to run this script every day to do so. It also means that I can manually backdate `@done` tags if I did something but didn't tag it as `@done` until the next day.
+
+This is handy for reporting to my boss about what I've been up to, but even more importantly than that, it shows the promise of giving me a sense of context and personal history. I'll be interested in reexamining the importance of this logging in a year or so.
 
 At the moment, since this is still an experiment for me, I only run this script manually. If and when I promote it to something that happens automatically, I might schedule it for once every other Sunday or something similarly infrequent.
 
