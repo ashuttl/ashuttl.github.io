@@ -134,7 +134,7 @@ would be turned into these iCloud Reminders:
 
 This gives me crucial context when I'm looking at the list in Reminders.app.
 
-Onre more nicety: if a task is tagged with `@overdue`, it's marked as high priority in Reminders.app, which gives it a little exclamation mark.
+One more nicety: if a task is tagged with `@overdue`, it's marked as high priority in Reminders.app, which gives it a little exclamation mark.
 
 Here is the code. I cobbled this together with the help of the [TaskPaper AppleScript wiki][tpscripts] and too many Stack Overflow posts to remember, but many thanks go those whose code this is based on.
 
