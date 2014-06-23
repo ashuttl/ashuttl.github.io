@@ -43,32 +43,32 @@ The most novel thing I'm doing is probably using [TextExpander][] to handle some
     <th>Expands to…</th>
   </tr>
   <tr>
-    <td><strong>;avail</strong></td>
-    <td>Tasks available to be worked on in the office</td>
-    <td><code>(@start < %Y-%m-%d or not start) and not (@done or @weekend) and not project future and not project discuss</code></td>
+    <td valign="top"><strong>;avail</strong></td>
+    <td valign="top">Tasks available to be worked on in the office</td>
+    <td valign="top"><code>(@start < %Y-%m-%d or not start) and not (@done or @weekend) and not project future and not project discuss</code></td>
   </tr>
   <tr>
-    <td><strong>;now</strong></td>
-    <td>Tasks to be worked on (or filed from the inbox) right now</td>
-    <td><code>(project contains inbox) or @today or @focus or @overdue or @next or @due <= %Y-%m-%d or @start <= %Y-%m-%d and not @done +d</code></td>
+    <td valign="top"><strong>;now</strong></td>
+    <td valign="top">Tasks to be worked on (or filed from the inbox) right now</td>
+    <td valign="top"><code>(project contains inbox) or @today or @focus or @overdue or @next or @due <= %Y-%m-%d or @start <= %Y-%m-%d and not @done +d</code></td>
   </tr>
   <tr>
-    <td><strong>;done</strong></td>
-    <td>Tasks I've completed in the past week</td>
-    <td><code>@done > %@-7D%Y-%m-%d</code></td>
+    <td valign="top"><strong>;done</strong></td>
+    <td valign="top">Tasks I've completed in the past week</td>
+    <td valign="top"><code>@done > %@-7D%Y-%m-%d</code></td>
   </tr>
   <tr>
     <td colspan="3"><p>I also use TextExpander in the document itself to help add certain kinds of tags quickly, like these:</p></td>
   </tr>
   <tr>
-    <td><strong>;defer</strong></td>
-    <td>Start this task tomorrow</td>
-    <td><code>@start(%@+1D%Y-%m-%d)</code></td>
+    <td valign="top"><strong>;defer</strong></td>
+    <td valign="top">Start this task tomorrow</td>
+    <td valign="top"><code>@start(%@+1D%Y-%m-%d)</code></td>
   </tr>
   <tr>
-    <td><strong>;today</strong></td>
-    <td>Make this task due today</td>
-    <td><code>@due(%Y-%m-%d)</code></td>
+    <td valign="top"><strong>;today</strong></td>
+    <td valign="top">Make this task due today</td>
+    <td valign="top"><code>@due(%Y-%m-%d)</code></td>
   </tr>
 </table>
 
