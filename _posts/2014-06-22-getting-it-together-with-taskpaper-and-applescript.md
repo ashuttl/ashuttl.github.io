@@ -50,7 +50,7 @@ The most novel thing I'm doing is probably using [TextExpander][] to handle some
   <tr>
     <td valign="top"><strong>;now</strong></td>
     <td valign="top">Tasks to be worked on (or filed from the inbox) right now</td>
-    <td valign="top"><code>(project contains inbox) or @today or @focus or @overdue or @next or @due <= %Y-%m-%d or @start <= %Y-%m-%d and not @done +d</code></td>
+    <td valign="top"><code>not @done and (project contains inbox or (@today or @overdue or @due or @next or @focus or @due <= %Y-%m-%d or @start <= %Y-%m-%d))+d</code></td>
   </tr>
   <tr>
     <td valign="top"><strong>;done</strong></td>
