@@ -309,7 +309,7 @@ body {
 	color: #3a3427;
 	background-color: #fdfdfc;
 	-webkit-text-size-adjust: 100%;
-	font-size: 15px;
+	font-size: 13.5px;
 }
 
 a,
@@ -835,6 +835,10 @@ body {
 }
 
 @media screen and (min-width: 750px) and (max-width: 1000px) {
+
+body {
+	font-size: 16.5px;
+}
 
 .content {
 	padding: 0 3em;

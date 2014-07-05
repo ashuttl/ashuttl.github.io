@@ -12,9 +12,11 @@ body
   color: $black
   background-color: $white
   -webkit-text-size-adjust: 100%
-  font-size: $bs * 1
+  font-size: $bs * 0.9
   @media screen and (min-width: $small)
     font-size: $bs * 1
+  @media screen and (min-width: $medium) and (max-width: $large)
+    font-size: $bs * 1.1
 
 a, a:link, a:visited
   color: inherit
