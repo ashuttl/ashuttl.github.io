@@ -13,7 +13,7 @@ module.exports = function(grunt){
           compress:                   true
         },
         files: {
-          'css/build/ashuttl.css': 'css/build/ashuttl.css'
+          'css/build/ashuttl-exp.css': 'css/build/ashuttl-exp.css'
         }
       }
     },
@@ -21,14 +21,14 @@ module.exports = function(grunt){
     cmq: {
       your_target: {
         files: {
-          'css/build/': ['css/build/ashuttl.css']
+          'css/build/': ['css/build/ashuttl-exp.css']
         }
       }
     },
 
     cssmin: {
       build: {
-        src: 'css/build/ashuttl.css',
+        src: 'css/build/ashuttl-exp.css',
         dest: 'css/build/ashuttl.css'
       }
     },
@@ -36,15 +36,15 @@ module.exports = function(grunt){
     sass: {
       build: {
         files: {
-          'css/build/ashuttl.css': 'css/ashuttl.sass'
+          'css/build/ashuttl-exp.css': 'css/ashuttl.sass'
         }
       }
     },
 
     autoprefixer: {
       build: {
-        src: 'css/build/ashuttl.css',
-        dest: 'css/build/ashuttl.css'
+        src: 'css/build/ashuttl-exp.css',
+        dest: 'css/build/ashuttl-exp.css'
       }
     },
 
