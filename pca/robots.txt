@@ -1,3 +1,2 @@
 User-Agent: *
-Disallow: /files/archive
-Sitemap: http://pcagreatperformances.org/sitemap.xml
+Disallow: /
