@@ -2,6 +2,7 @@
 title: Why tornado clouds are green
 type: link
 link: http://www.news.wisc.edu/14039
+layout: post
 ---
 Something I learned today:
 
