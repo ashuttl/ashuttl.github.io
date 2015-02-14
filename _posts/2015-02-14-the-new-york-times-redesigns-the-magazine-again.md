@@ -15,4 +15,4 @@ A few years ago, I was dismayed by one of The Times’s periodic reboots of the 
 >
 > Andrew Shuttleworth
 
-I’m much happier about today’s redesign.
+I’m much happier about next week’s redesign.
