@@ -3,7 +3,7 @@ title: The New York Times redesigns the magazine again
 type: post
 layout: post
 ---
-A few years ago, I was dismayed by one of The Times’s periodic reboots of the Magazine (the one, I believe, that made it smaller and ditched the too-thin-for-that-paper but lovely Stempely Garamond). I wrote the below. 
+A few years ago, I was dismayed by one of The Times’s periodic reboots of the Magazine (the one, I believe, that made it smaller and ditched the too-thin-for-that-paper but lovely Stempely Garamond). I wrote them the below. 
 
 > To the Editor:
 >
