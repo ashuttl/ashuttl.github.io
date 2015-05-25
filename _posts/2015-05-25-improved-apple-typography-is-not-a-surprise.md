@@ -2,6 +2,7 @@
 title: Improved Apple typography is a relief, but not a surprise
 type: post
 layout: post
+teaser: "Apple’s new San Franscisco UI font, first developed for the Watch and now apparently making its way to the Mac and iOS, deserves to be praised. But Apple knew knew what they were doing with Helvetica Neue more than than they’ve been given credit for."
 ---
 Much has been made of [Mark Gurman’s claim that Apple will switch to San Francisco as the primary iOS and OS X interface font](http://9to5mac.com/2015/05/20/apple-plans-to-refresh-ios-9-os-x-10-11-using-new-apple-watch-font/) in the next major releases. After a couple of weeks living with San Francisco on the Apple Watch, I’m about as excited about this as it would be possible to be, but Apple’s previous choice doesn’t completely deserve the [bad rap](http://www.fastcodesign.com/3031432/why-apples-new-font-wont-work-on-your-desktop "Tobias Frere-Jones is unimpressed with Helvetica as an interface font.") it has gotten in some quarters.
 
