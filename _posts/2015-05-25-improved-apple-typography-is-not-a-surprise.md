@@ -6,7 +6,7 @@ teaser: "Apple’s new San Franscisco UI font, first developed for the Watch and
 ---
 Much has been made of [Mark Gurman’s claim that Apple will switch to San Francisco as the primary iOS and OS X interface font](http://9to5mac.com/2015/05/20/apple-plans-to-refresh-ios-9-os-x-10-11-using-new-apple-watch-font/) in the next major releases. After a couple of weeks living with San Francisco on the Apple Watch, I’m about as excited about this as it would be possible to be, but Apple’s previous choice doesn’t completely deserve the [bad rap](http://www.fastcodesign.com/3031432/why-apples-new-font-wont-work-on-your-desktop "Tobias Frere-Jones is unimpressed with Helvetica as an interface font.") it has gotten in some quarters.
 
-Granted, they’ve made a decade of atrocious typographic choices like the far, far too delicate version of Palatino[^1] they crammed into iBooks and the casting of the lovely but remarkably unsuitable Helvetica Neue as a primary UI font across both operating systems. The in-house San Francisco design is beautiful and distinct, betraying an delightful awareness of the human aspects of comfort and legibility. It demonstrates a stunning increase in typographic focus for Apple.
+Granted, they’ve made a decade of atrocious typographic choices like the far, far too delicate version of Palatino[^1] they crammed into iBooks and the casting of the lovely but remarkably unsuitable Helvetica Neue as a primary UI font across both operating systems. The in-house San Francisco design is beautiful and distinct, betraying a delightful awareness of the human aspects of comfort and legibility. It demonstrates a stunning increase in typographic focus for Apple.
 
 [^1]:	Seriously, it looks like it was designed to be set no smaller than a large headline.
 
