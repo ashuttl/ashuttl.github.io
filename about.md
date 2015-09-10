@@ -9,5 +9,5 @@ I&rsquo;m the Director of Digital Marketing Services for&nbsp;[Lincoln Center fo
 
 Before Lincoln Center, I worked as a technology and marketing consultant for [Blackbaud](http://blackbaud.com/) and its clients, as a marketer and graphic designer for what&rsquo;s now called [Portland Ovations](http://portlandovations.org) (it was [PCA Great Performances](http://ashuttleworth.com/pca/) in my day), as a graphic designer at a small agency, and, a long time ago, as a bartender.
 
-You can reach me by tweeting to [@ashuttl](http://twitter.com/intent/tweet?screen_name=ashuttl) or by sending an email to [hello@shuttleworth.is](mailto:hello@shuttleworth.is). I&rsquo;d love to hear from you.
+You can reach me by tweeting to [@ashuttl](http://twitter.com/intent/tweet?screen_name=ashuttl) or by sending an email to [andrew@shuttleworth.is](mailto:andrew@shuttleworth.is). I&rsquo;d love to hear from you.
 
