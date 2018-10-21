@@ -408,7 +408,7 @@ article em strong {
 	font-size: 3em;
 	line-height: 1.1;
 	letter-spacing: -1px;
-	color: #c0b5a1;
+	display: none;
 }
 
 #header .desc {
