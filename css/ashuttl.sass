@@ -8,7 +8,7 @@
 //////////////////////////////
 
 body
-  +fedra
+  +fedra-mono
   color: $black
   background-color: $white
   -webkit-text-size-adjust: 100%
@@ -28,11 +28,11 @@ h1,h2,h3,h4,h5,h6,p,td,li,dt,dd,div,section,article
 
 p,td,li,dt,dd,div,section,article
   strong
-    +fedra-bold
+    +fedra-mono-bold
   em
-    +fedra-italic
+    +fedra-mono-italic
   strong em, em strong
-    +fedra-bold-italic
+    +fedra-mono-bold-italic
 
 
 //////////////////////////////
@@ -48,23 +48,23 @@ p,td,li,dt,dd,div,section,article
 @media screen and (min-width: $large)
   #header
     .content
-      $header-width: $bs * 18
-      max-width: $header-width
-      position: fixed
-      left: 50%
-      margin-left: -$header-width * 1.7
-      .social
+      // $header-width: $bs * 18
+      // max-width: $header-width
+      // position: fixed
+      // left: 50%
+      // margin-left: -$header-width * 1.7
+      // .social
         width: 100%
     .wood
       z-index: 100
   #main, #footer
     .content
-      $main-width: $small * 1.2
-      max-width: $main-width
-      position: relative
-      left: 50%
-      margin-left: -$main-width / 4
-    
+      // $main-width: $small * 1.2
+      // max-width: $main-width
+      // position: relative
+      // left: 50%
+      // margin-left: -$main-width / 4
+
 
 
 //////////////////////////////
@@ -94,10 +94,12 @@ p,td,li,dt,dd,div,section,article
       &:hover
         color: $green
     .name--text
-      +irma-light
+      +fedra
       // margin: $bs * .5 0
-      font-size: 2em
+      font-size: 3em
       line-height: 1.1
+      letter-spacing: -1px
+      color: $gray
   .desc
     margin: 1em 0
     .desc--text

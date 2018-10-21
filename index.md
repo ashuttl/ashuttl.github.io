@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" type="text/css" href="/css/home.css">
 
 Nice to meet you. I&rsquo;m Andrew Shuttleworth.
 
