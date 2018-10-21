@@ -728,6 +728,11 @@ article em strong {
 	padding-top: 4em;
 }
 
+#header .desc .desc--text,
+.pagination .unavailable {
+	color: #c0b5a1;
+}
+
 .pagination .numbers {
 	margin: 0 1em;
 }
@@ -780,10 +785,9 @@ article em strong {
 	font-size: .875em;
 }
 
-#header .desc .desc--text,
-.pagination .unavailable,
 #footer p {
 	color: #c0b5a1;
+	display: none;
 }
 
 #header a:hover,
