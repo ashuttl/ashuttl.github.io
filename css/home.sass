@@ -1,0 +1,333 @@
+@import _config
+@import _reset
+@import _syntax
+
+
+//////////////////////////////
+// Styling
+//////////////////////////////
+
+body
+  +fedra
+  color: $black
+  background-color: $white
+  -webkit-text-size-adjust: 100%
+  font-size: $bs * 0.9
+  @media screen and (min-width: $small)
+    font-size: $bs * 1
+  @media screen and (min-width: $medium) and (max-width: $large)
+    font-size: $bs * 1.1
+
+a, a:link, a:visited
+  color: inherit
+  text-decoration: none
+  transition: color 0.1s linear
+
+h1,h2,h3,h4,h5,h6,p,td,li,dt,dd,div,section,article
+  line-height: 1.65
+
+p,td,li,dt,dd,div,section,article
+  strong
+    +fedra-bold
+  em
+    +fedra-italic
+  strong em, em strong
+    +fedra-bold-italic
+
+
+//////////////////////////////
+// Layout
+//////////////////////////////
+
+.content
+  margin: 0 auto
+  max-width: $small * 1.5
+  padding: 0 1em
+  @media screen and (min-width: $medium) and (max-width: $large)
+    padding: 0 3em
+@media screen and (min-width: $large)
+  #header
+    .content
+      $header-width: $bs * 18
+      max-width: $header-width
+      position: fixed
+      left: 50%
+      margin-left: -$header-width * 1.7
+      .social
+        width: 100%
+    .wood
+      z-index: 100
+  #main, #footer
+    .content
+      $main-width: $small * 1.2
+      max-width: $main-width
+      position: relative
+      left: 50%
+      margin-left: -$main-width / 4
+
+
+
+//////////////////////////////
+// Design
+//////////////////////////////
+
+#header
+  margin-top: 2.5em
+  font-size: 0.875em
+  @media screen and (min-width: $medium)
+    margin-top: 5em
+    margin-bottom: 3em
+  a
+    +green-hover
+  .wood
+    background: url(/images/wood-diagonal.jpg)
+    background-size: 350px
+    background-position: center
+    position: fixed
+    top: 0
+    left: 0
+    border-bottom: 1px solid $brown
+    height: 1em
+    width: 100%
+  .name
+    a
+      &:hover
+        color: $green
+    .name--text
+      +irma-light
+      // margin: $bs * .5 0
+      font-size: 2em
+      line-height: 1.1
+  .desc
+    margin: 1em 0
+    .desc--text
+      color: $gray
+  .social
+    overflow: auto
+    @mixin social($color: $green, $icon: "")
+      line-height: 24px
+      float: left
+      width: 50%
+      @media screen and (min-width: $small)
+        width: 33%
+      @media screen and (min-width: $large)
+        width: 100%
+      a
+        color: $gray
+        display: block
+        margin: 0.25em 0
+        i
+          width: 24px
+          height: 24px
+          float: left
+          margin-right: 5px
+          background-image: url(/images/social-#{$icon}.png)
+          background-size: 24px
+          background-color: $gray
+          transition: background-color 0.1s linear
+        &:hover
+          color: $color
+          i
+            background-color: $color
+    .about
+      +social($green, contact)
+    .twitter
+      +social($blue, twitter)
+    .rss
+      +social($orange, rss)
+      display: none
+      @media screen and (min-width: $small)
+        display: block
+
+.article
+  margin-top: $bs * 2
+  @media screen and (min-width: $medium)
+    margin-top: $bs * 3.5
+  .article--header
+    @media screen and (min-width: $medium)
+      margin-bottom: $bs * 0.6125
+    h2
+      #main.page &, #main.post &, &.long-post
+        font-size: 1.6em
+        line-height: 1.1
+      +irma-medium
+      font-size: 1.1em
+      line-height: 1.1
+      display: inline
+      &:after
+        content: " "
+        display: inline
+        width: 1em
+      a
+        &:hover
+          color: $green
+      &.link-post
+        position: relative
+        &:before
+          content: "→ "
+          color: $gray
+          width: 1em
+          @media screen and (min-width: $medium)
+            position: absolute
+            left: -1.25em
+        a
+          color: $green
+          border-bottom: 1px solid fade-out($green, .5)
+          &:hover
+            color: darken($green, 10%)
+            border-bottom-color: $green
+    .permalink
+      color: $gray
+      +green-hover
+      display: inline-block
+      font-size: 0.875em
+  .article--body
+    h3
+      // +fedra-bold
+      font-size: 1.45em
+      margin-top: 2.25em
+    h4
+      +fedra-bold
+      margin-top: 1.85em
+    p
+      margin: 0.125em 0 0.875em
+      &.special
+        font-size: 1.2em
+        line-height: 1.5
+    blockquote
+      border-left: 2px solid $gray
+      color: darken($gray, 30%)
+      padding-left: 0.875em
+    a
+      +green-hover
+      border-bottom: 1px solid fade-out($green, .5)
+    sup
+      font-size: 0.65em
+      position: relative
+      top: -0.65em
+    img
+      max-width: 100%
+    ul, ol
+      margin: 0.125em 0 0.875em 1.45em
+    ul
+      list-style-type: square
+    ol
+      list-style-type: decimal
+    .footnotes
+      margin-top: 2em
+      border-top: 1px solid fade-out($gray, .8)
+      padding-top: 2em
+      font-size: 0.875em
+    p code, li code, table:not(.highlighttable) code
+      +fedra-mono
+      // background: fade-out($gray, .9)
+      // padding: 2px 5px
+      // font-size: .95em
+      // border-radius: 3px
+      position: relative
+    > pre
+      background: fade-out($gray, .9)
+      border-radius: 5px
+      padding: 3px 5px
+      margin-bottom: 1em
+      overflow: auto
+      code
+        +fedra-mono
+        &.language-text
+          font-family: "helvetica neue", sans-serif
+    table:not(.highlighttable)
+      width: 100%
+      margin-left: -6px
+      margin-bottom: 1em
+      th
+        border-bottom: 1px solid fade-out($gray, .8)
+        text-align: left
+        +fedra-italic
+      th, td
+        padding: 3px 6px
+        p
+          margin-top: 1em
+    hr
+      background-color: fade-out($gray, 0.8)
+      border: none
+      height: 1px
+      margin-top: 1.5em
+      margin-bottom: 1.5em
+  .article--readmore
+    margin-top: 1em
+    a
+      color: $green
+      +fedra-bold
+      &:after
+        content: "  →"
+        position: absolute
+        margin-left: 0.25em
+        color: $gray
+  #disqus_thread
+    margin-top: 2em
+
+.highlighttablewrap
+  max-width: 100%
+  overflow: auto
+  background: fade-out($gray, .9)
+  border-radius: 5px
+  +fedra-mono
+  margin-bottom: 1em
+.highlighttable
+  font-size: .9em
+  .linenos
+    color: $white
+    background-color: fade-out($gray, .6)
+    text-align: right
+    .linenodiv
+      padding-left: .5 * $bs
+      padding-right: .5 * $bs
+      // border-right: 1px solid fade-out($gray, .7)
+  .code
+    padding: 0 .5 * $bs
+
+.pagination
+  padding-top: 4em
+  .unavailable
+    color: $gray
+  .numbers
+    margin: 0 1em
+  .current
+    display: inline-block
+    width: 1.3em
+    height: 1.3em
+    line-height: 1.3em
+    padding: 4px 3px 2px
+    border-radius: 50%
+    text-align: center
+    background-color: $green
+    color: $white
+  a
+    &:hover
+      color: $green
+      border-bottom: 1px solid fade-out($green, .5)
+  a.number
+    display: inline-block
+    width: 1.3em
+    height: 1.3em
+    line-height: 1.3em
+    border-radius: 50%
+    padding: 4px 3px 2px
+    text-align: center
+    background-color: transparent
+    transition: background-color, 0.1s
+    &:hover
+      background-color: fade-out($green, .5)
+      color: $black
+    &:active
+      background-color: $green
+      color: $white
+
+#footer
+  margin: $bs * 4 0 $bs * 2
+  .footer-info
+    font-size: 0.875em
+  p
+    color: $gray
+    a
+      +green-hover

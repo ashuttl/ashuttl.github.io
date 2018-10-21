@@ -6,12 +6,15 @@
     "grunt": "~0.4.4",
     "grunt-autoprefixer": "*",
     "grunt-combine-media-queries": "^1.0.15",
-    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-sass": "*",
-    "grunt-contrib-uglify": "*",
+    "grunt-contrib-uglify": "^4.0.0",
     "grunt-contrib-watch": "*",
     "grunt-cssc": "*",
     "grunt-htmlhint": "*",
     "matchdep": "*"
+  },
+  "dependencies": {
+    "npm": "^6.4.1"
   }
 }
