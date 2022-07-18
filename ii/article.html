@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Connecting Remote Communities to the World · Waypoints by Island
+      Institute
+    </title>
+
+    <!-- Dependencies -->
+    <link rel="stylesheet" href="https://use.typekit.net/jeq0bfm.css" />
+    <script src="//api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script>
+    <link
+      href="//api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/balance-text/3.3.0/balancetext.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+    <!-- Author -->
+    <link rel="stylesheet" href="css/mapbox.css" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+  </head>
+  <body>
+    <div class="map" id="map2"></div>
+
+    <header class="cover split" role="banner">
+      <div class="text">
+        <div class="content">
+          <div class="headline">
+            <div class="prehead">
+              <div class="issue">Connect</div>
+              <div class="topic">&nbsp;Broadband Access</div>
+            </div>
+
+            <h1>Connecting Remote Communities to the World</h1>
+            <p class="lede">
+              Rural coastal communities strategize to build broadband
+              networks that will provide access and opportunities for
+              young and old.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="image">
+        <figure>
+          <img src="img/unsplash/724-3000x2000.jpg" />
+          <!-- <img src="//picsum.photos/3000/2000" /> -->
+          <figcaption>
+            Roque Bluffs, Maine, a town of 300, has no wired connection
+            to the internet other than via copper phone lines installed
+            in 1972.
+            <em class="credit">Photo: Unsplash</em>
+          </figcaption>
+        </figure>
+      </div>
+    </header>
+
+    <div class="article" role="main">
+      <div class="content">
+        <div class="byline">
+          <div class="author writer">Written by Ellsworth Fowler</div>
+          <div class="author data">
+            With data journalism by Norman&nbsp;Beaupré, Anne&nbsp;Ford,
+            Daphne&nbsp;Plymale, and Roger&nbsp;Leavitt
+          </div>
+          <div class="date">
+            Posted June 19,
+            2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last
+            updated January 22, 2020
+          </div>
+        </div>
+        <div class="type has-dropcap">
+          <p>
+            Lack of access to fast, reliable, and affordable internet
+            service has long been a leading factor working against the
+            sustainability of small-town life on the coast of Maine.
+            Rural towns with poor internet service are finding it
+            difficult to attract young families. Businesses are unlikely
+            to locate where internet service is spotty, and senior
+            residents increasingly rely on dependable communications
+            networks to support their ability to age in place.
+          </p>
+
+          <p>
+            “Cras nec mauris felis. Quisque tincidunt mi eget felis
+            euismod, sit amet varius massa imperdiet.” Phasellus a ex
+            rhoncus, iaculis nulla sit amet, commodo est. Nulla vitae
+            aliquet lorem. Vestibulum vitae consectetur dui, quis
+            fringilla metus. Donec consectetur mi non rutrum ornare. Ut
+            lectus lectus, blandit ac fringilla quis, sagittis a sem.
+            Sed sed volutpat nibh. Maecenas tempor et mauris ut
+            pulvinar. Duis quis laoreet eros. Quisque tempor est eu enim
+            semper consectetur. Pellentesque habitant morbi tristique
+            senectus et netus et malesuada fames ac turpis egestas.
+            Nullam iaculis ultricies dui ut hendrerit. Fusce in mauris
+            at leo tempor facilisis eu eu quam.
+          </p>
+        </div>
+
+        <div class="embed observable">
+          <div class="intro">
+            <h2>
+              Example Embed from
+              <a href="https://observablehq.com">ObservableHQ</a>
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Nihil, aliquid vel cupiditate repudiandae accusamus quam
+              laudantium laboriosam maiores error dolorem unde,
+              blanditiis ad illum. Nemo molestiae nam perspiciatis
+              reiciendis impedit?
+            </p>
+          </div>
+          <p></p>
+          <div class="chart-1"></div>
+          <p class="fine">
+            Credit:
+            <a
+              href="https://observablehq.com/@mbostock/u-s-population-by-state-1790-1990"
+              >U.S. Population by State, 1790–1990 by Mike Bostock</a
+            >
+          </p>
+
+          <script type="module">
+            import {
+              Runtime,
+              Inspector,
+            } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+            import define from "https://api.observablehq.com/@mbostock/u-s-population-by-state-1790-1990.js?v=3";
+            new Runtime().module(define, (name) => {
+              if (name === "chart") return Inspector.into(".chart-1")();
+            });
+          </script>
+        </div>
+        <div class="type">
+          <p>
+            Nunc tristique magna nec justo tristique ultrices. Sed
+            bibendum nibh eu enim feugiat porttitor. Ut sed odio at nisl
+            efficitur viverra. Duis placerat, erat eu lacinia facilisis,
+            lectus nibh posuere risus, et vehicula dui libero nec enim.
+            Phasellus velit nulla, suscipit pharetra consectetur id,
+            sodales tincidunt lacus. Curabitur varius elit eros,
+            tristique vehicula augue ultrices a. Aenean nec lorem at
+            tortor dictum eleifend ac vel tellus. Maecenas ultricies ut
+            elit quis ornare. Mauris arcu velit, hendrerit quis placerat
+            ac, tempus a diam. Sed fringilla pellentesque ex, at gravida
+            dui convallis eget. Quisque tempus nibh ac eros consectetur
+            ultricies. Ut gravida est volutpat lacus imperdiet
+            pellentesque sed a erat. Curabitur purus justo, rutrum quis
+            orci at, tempus luctus arcu. Duis in ligula ut nunc
+            vestibulum sollicitudin nec non tellus. Suspendisse potenti.
+            Donec pellentesque quam tortor, et euismod velit mollis
+            eget.
+          </p>
+
+          <h2>Quousque tandem abutere, Catilina, patientia nostra</h2>
+
+          <p>
+            Maecenas tristique augue at vehicula molestie. Donec in elit
+            risus. Cras bibendum, diam quis tempus pulvinar, erat purus
+            tristique nibh, non tristique elit ex ut mauris. Proin felis
+            nibh, rutrum bibendum dignissim sed, cursus vel dui. Aliquam
+            erat volutpat. In consequat nunc quis libero gravida ornare.
+            Aliquam vel lorem in libero finibus luctus. Pellentesque
+            vitae augue quam. Integer ac ligula a velit porttitor
+            cursus.
+          </p>
+          <h3>Quem ad finem sese effrenata iactabit audacia</h3>
+          <p>
+            Aliquam sed erat fermentum, sagittis tellus id, rutrum
+            lacus. Curabitur faucibus aliquam mi ac pharetra. Donec
+            commodo sem est, eget condimentum nulla eleifend sit amet.
+            Nulla non massa lacus. Pellentesque maximus mauris tellus,
+            scelerisque molestie magna mattis ut. Praesent sodales ante
+            sit amet arcu accumsan, ut interdum orci venenatis. Duis
+            tincidunt scelerisque dolor, ut fringilla ipsum aliquet
+            lobortis.
+          </p>
+        </div>
+
+        <div class="embed observable truncate">
+          <div class="intro">
+            <h2>
+              Example Embed from
+              <a href="https://observablehq.com">ObservableHQ</a> with
+              Interactivity
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Nihil, aliquid vel cupiditate repudiandae accusamus quam
+              laudantium laboriosam maiores error dolorem unde,
+              blanditiis ad illum. Nemo molestiae nam perspiciatis
+              reiciendis impedit?
+            </p>
+          </div>
+          <div class="controls header">
+            <div class="viewof-days inline"></div>
+            <div class="viewof-direction inline"></div>
+          </div>
+          <div class="chart"></div>
+
+          <p class="credit">
+            Credit:
+            <a href="https://observablehq.com/@mbostock/mareys-trains"
+              >Marey’s Trains by Mike Bostock</a
+            >
+          </p>
+
+          <script type="module">
+            import {
+              Runtime,
+              Inspector,
+            } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+            import define from "https://api.observablehq.com/@mbostock/mareys-trains.js?v=3";
+            new Runtime().module(define, (name) => {
+              if (name === "viewof days")
+                return Inspector.into(".viewof-days")();
+              if (name === "viewof direction")
+                return Inspector.into(".viewof-direction")();
+              if (name === "chart") return Inspector.into(".chart")();
+              return (
+                ["data", "stops", "tooltip", "voronoi"].includes(
+                  name
+                ) || null
+              );
+            });
+          </script>
+        </div>
+
+        <div class="type">
+          <p>
+            Sed commodo neque mi, et gravida velit fringilla in.
+            Praesent ultrices pellentesque lacus eu porta. Mauris sit
+            amet gravida eros. Mauris accumsan non lacus at suscipit.
+            Sed eget augue finibus, convallis velit id, pulvinar leo.
+            Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas. Morbi vel lacus mi.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque vestibulum nec quam eu tincidunt. Etiam rutrum
+            magna justo, ut viverra ipsum porta et. In leo velit,
+            efficitur id arcu sed, tincidunt pretium justo. Praesent vel
+            tortor in mi scelerisque egestas. Integer quis magna est.
+            Integer aliquam sit amet eros eget eleifend. Morbi in
+            ullamcorper diam. Suspendisse aliquam facilisis egestas.
+          </p>
+        </div>
+
+        <div class="embed map">
+          <div class="intro">
+            <h2>
+              <a href="https://www.mapbox.com/">Mapbox</a> maps can be
+              embedded within the basic flow, behaving like a diagram…
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Nihil, aliquid vel cupiditate repudiandae accusamus quam
+              laudantium laboriosam maiores error dolorem unde,
+              blanditiis ad illum. Nemo molestiae nam perspiciatis
+              reiciendis impedit?
+            </p>
+          </div>
+          <div class="controls">
+            <label>Fly to</label>
+            <button id="flyToMdi">MDI</button>
+            <button id="flyToPortland">Portland</button>
+            <button id="showCentralCoast">Central Coast</button>
+            <button id="showRegion">Region</button>
+            <button id="flyToBarHarbor">Bar Harbor</button>
+            <!-- <br />
+            <label>Map style</label>
+            <button id="styleWaypoints"><i>Waypoints</i> beta</button> -->
+          </div>
+          <div class="map" id="map1"></div>
+          <script>
+            mapboxgl.accessToken =
+              "pk.eyJ1IjoiYXNodXR0bCIsImEiOiJvUU13SzRZIn0.RjvcyDrQ_JC081y53ydwow";
+            var map1 = new mapboxgl.Map({
+              container: "map1",
+              style:
+                // light style:
+                "mapbox://styles/ashuttl/ckizdecq8189119l4n54nn8zz",
+              // dark style:
+              // "mapbox://styles/ashuttl/ckj4jv9ha3srs19rusa8fl23w",
+              center: [-68.4, 44.3], // [lng, lat]
+              zoom: 6,
+            });
+
+            map1.scrollZoom.disable();
+            map1.dragging.disable();
+            map1.touchZoom.disable();
+            map1.addControl(new mapboxgl.NavigationControl());
+            map1.on("load", function () {
+              map1.addSource("mapbox-dem", {
+                type: "raster-dem",
+                url: "mapbox://mapbox.mapbox-terrain-dem-v1",
+                tileSize: 512,
+                maxzoom: 14,
+              });
+              map1.setTerrain({
+                source: "mapbox-dem",
+              });
+              map1.addLayer({
+                id: "sky",
+                type: "sky",
+                paint: {
+                  "sky-type": "atmosphere",
+                  "sky-atmosphere-sun": [0.0, 0.0],
+                  "sky-atmosphere-sun-intensity": 15,
+                },
+              });
+            });
+          </script>
+        </div>
+
+        <div class="type spacebelow">
+          <p>
+            Cras nec mauris felis. Quisque tincidunt mi eget felis
+            euismod, sit amet varius massa imperdiet. Phasellus a ex
+            rhoncus, iaculis nulla sit amet, commodo est. Nulla vitae
+            aliquet lorem. Vestibulum vitae consectetur dui, quis
+            fringilla metus. Donec consectetur mi non rutrum ornare.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+            inventore id temporibus. Praesentium vel ab, repellendus
+            dolor labore illo doloremque recusandae. Quam consequuntur
+            natus et porro adipisci, sequi atque maiores.
+          </p>
+          <p>
+            Quit amet consectetur adipisicing elit. Amet consequuntur
+            dolorum, ex vero, ipsum doloribus nobis aperiam rem dicta
+            sunt, omnis vel veritatis quibusdam ipsa facere! Nemo
+            molestias qui blanditiis?
+          </p>
+          <p>
+            Cras nec mauris felis. Quisque tincidunt mi eget felis
+            euismod, sit amet varius massa imperdiet. Phasellus a ex
+            rhoncus, iaculis nulla sit amet, commodo est. Nulla vitae
+            aliquet lorem. Vestibulum vitae consectetur dui, quis
+            fringilla metus. Donec consectetur mi non rutrum ornare.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+            inventore id temporibus. Praesentium vel ab, repellendus
+            dolor labore illo doloremque recusandae. Quam consequuntur
+            natus et porro adipisci, sequi atque maiores.
+          </p>
+          <p>
+            Quit amet consectetur adipisicing elit. Amet consequuntur
+            dolorum, ex vero, ipsum doloribus nobis aperiam rem dicta
+            sunt, omnis vel veritatis quibusdam ipsa facere! Nemo
+            molestias qui blanditiis?
+          </p>
+        </div>
+      </div>
+      <script>
+        mapboxgl.accessToken =
+          "pk.eyJ1IjoiYXNodXR0bCIsImEiOiJvUU13SzRZIn0.RjvcyDrQ_JC081y53ydwow";
+        var map = new mapboxgl.Map({
+          container: "map2",
+          style: "mapbox://styles/ashuttl/ckizdecq8189119l4n54nn8zz",
+          center: [-68.25, 44.33], // [lng, lat]
+          zoom: 12,
+        });
+        map.scrollZoom.disable();
+        map.dragging.disable();
+        map.touchZoom.disable();
+      </script>
+      <div class="overlay">
+        <!-- @TODO : Print styles and fallbacks using static Mapbox images  -->
+        <div class="overlay panel header" id="start">
+          <div class="content">
+            <h2>…or the map can take over the narrative.</h2>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Iusto, magnam dignissimos et reiciendis eligendi.
+            </h3>
+          </div>
+        </div>
+        <div class="overlay panel text focus">
+          <div class="content">
+            <h3>
+              We can use these overlay cards to continue the story, or
+              call out details of the map.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Pariatur iure ullam, repellendus exercitationem rem
+              adipisci earum consequuntur facilis voluptates nisi
+              recusandae sunt dignissimos sed ratione omnis suscipit
+              dolorum eos doloribus!
+            </p>
+          </div>
+        </div>
+        <div class="overlay panel text focus" id="cliffisland">
+          <div class="content">
+            <h3>
+              These cards can control the map too. This one tells the
+              map to fly to Cliff Island.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Iusto, magnam dignissimos et reiciendis eligendi.
+            </p>
+          </div>
+        </div>
+        <div class="overlay panel text focus" id="swansisland">
+          <div class="content">
+            <h3>This one flies you to Swan’s Island.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Iusto, magnam dignissimos et reiciendis eligendi.
+            </p>
+          </div>
+        </div>
+        <div class="overlay panel text focus" id="roquebluffs">
+          <div class="content">
+            <h3>And then on to Roque Bluffs.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Iusto, magnam dignissimos et reiciendis eligendi.
+            </p>
+          </div>
+        </div>
+        <div class="overlay panel text focus">
+          <div class="content">
+            <h3>
+              This approach lets you walk your readers through your data
+              within the context of your narrative.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Iusto, magnam dignissimos et reiciendis eligendi.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="type has-dropcap">
+          <p>
+            Ut lectus lectus, blandit ac fringilla quis, sagittis a sem.
+            Sed sed volutpat nibh. Maecenas tempor et mauris ut
+            pulvinar. Duis quis laoreet eros. Quisque tempor est eu enim
+            semper consectetur. Pellentesque habitant morbi tristique
+            senectus et netus et malesuada fames ac turpis egestas.
+            Nullam iaculis ultricies dui ut hendrerit. Fusce in mauris
+            at leo tempor facilisis eu eu quam.
+          </p>
+
+          <p>
+            Nunc tristique magna nec justo tristique ultrices. Sed
+            bibendum nibh eu enim feugiat porttitor. Ut sed odio at nisl
+            efficitur viverra. Duis placerat, erat eu lacinia facilisis,
+            lectus nibh posuere risus, et vehicula dui libero nec enim.
+            Phasellus velit nulla, suscipit pharetra consectetur id,
+            sodales tincidunt lacus. Curabitur varius elit eros,
+            tristique vehicula augue ultrices a. Aenean nec lorem at
+            tortor dictum eleifend ac vel tellus. Maecenas ultricies ut
+            elit quis ornare. Mauris arcu velit, hendrerit quis placerat
+            ac, tempus a diam. Sed fringilla pellentesque ex, at gravida
+            dui convallis eget. Quisque tempus nibh ac eros consectetur
+            ultricies. Ut gravida est volutpat lacus imperdiet
+            pellentesque sed a erat. Curabitur purus justo, rutrum quis
+            orci at, tempus luctus arcu. Duis in ligula ut nunc
+            vestibulum sollicitudin nec non tellus. Suspendisse potenti.
+            Donec pellentesque quam tortor, et euismod velit mollis
+            eget.
+          </p>
+
+          <p>
+            Maecenas tristique augue at vehicula molestie. Donec in elit
+            risus. Cras bibendum, diam quis tempus pulvinar, erat purus
+            tristique nibh, non tristique elit ex ut mauris. Proin felis
+            nibh, rutrum bibendum dignissim sed, cursus vel dui. Aliquam
+            erat volutpat. In consequat nunc quis libero gravida ornare.
+            Aliquam vel lorem in libero finibus luctus. Pellentesque
+            vitae augue quam. Integer ac ligula a velit porttitor
+            cursus. Aliquam sed erat fermentum, sagittis tellus id,
+            rutrum lacus. Curabitur faucibus aliquam mi ac pharetra.
+            Donec commodo sem est, eget condimentum nulla eleifend sit
+            amet. Nulla non massa lacus. Pellentesque maximus mauris
+            tellus, scelerisque molestie magna mattis ut. Praesent
+            sodales ante sit amet arcu accumsan, ut interdum orci
+            venenatis. Duis tincidunt scelerisque dolor, ut fringilla
+            ipsum aliquet lobortis.
+          </p>
+
+          <p>
+            Sed commodo neque mi, et gravida velit fringilla in.
+            Praesent ultrices pellentesque lacus eu porta. Mauris sit
+            amet gravida eros. Mauris accumsan non lacus at suscipit.
+            Sed eget augue finibus, convallis velit id, pulvinar leo.
+            Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas. Morbi vel lacus mi.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="js/mapbox.js"></script>
+  </body>
+</html>

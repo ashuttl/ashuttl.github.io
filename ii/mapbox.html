@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <!-- Dependencies -->
+    <link rel="stylesheet" href="https://use.typekit.net/jeq0bfm.css" />
+    <script src="//api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script>
+    <link
+      href="//api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <!-- Author CSS -->
+    <!-- <link rel="stylesheet" href="css/mapbox.css" /> -->
+
+    <style>
+      #map {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+      }
+      #controls {
+        position: fixed;
+        top: 0;
+        left: 0;
+        /* background: black; */
+        /* color: white; */
+        /* padding-right: 1em; */
+      }
+      #controls a {
+        /* color: white; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div id="map"></div>
+      <div id="controls">
+        <button id="flyToMDI">Fly to MDI</button>
+        <button id="changeStyle">Change Style</button>
+      </div>
+    </div>
+
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoiYXNodXR0bCIsImEiOiJvUU13SzRZIn0.RjvcyDrQ_JC081y53ydwow";
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/ashuttl/ckj4jv9ha3srs19rusa8fl23w",
+        center: [-68.4, 44.3], // [lng, lat]
+        zoom: 6,
+      });
+      map.scrollZoom.disable();
+      document
+        .getElementById("flyToMDI")
+        .addEventListener("click", function () {
+          map.flyTo({
+            center: [-68.3, 44.33],
+            essential: true,
+            zoom: 10,
+            padding: 0,
+          });
+        });
+      document
+        .getElementById("changeStyle")
+        .addEventListener("click", function () {
+          map.setStyle(
+            "mapbox://styles/ashuttl/ckizdecq8189119l4n54nn8zz"
+          );
+        });
+    </script>
+  </body>
+</html>
